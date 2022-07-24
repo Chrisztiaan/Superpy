@@ -1,0 +1,1004 @@
+id	product_name	buy_date	price	expiration_date	amount
+1.0	Sauce - Rosee	2021-11-25	2.0	2022-07-17	50.0
+2.0	Mudslide	2022-05-02	37.0	2022-10-09	54.0
+3.0	Sausage - Chorizo	2022-06-11	65.0	2022-11-16	39.0
+4.0	Shrimp - Black Tiger 26/30	2021-07-22	94.0	2023-01-01	51.0
+5.0	Oil - Pumpkinseed	2022-01-28	37.0	2022-12-11	93.0
+6.0	Momiji Oroshi Chili Sauce	2021-12-01	77.0	2023-01-14	31.0
+7.0	Lemonade - Natural, 591 Ml	2021-08-27	24.0	2022-09-02	19.0
+8.0	Tea - Black Currant	2022-02-25	55.0	2022-08-19	76.0
+9.0	Wine - Sake	2021-08-27	69.0	2023-03-10	57.0
+10.0	True - Vue Containers	2022-01-07	97.0	2023-03-29	37.0
+11.0	Spice - Greek 1 Step	2021-11-11	33.0	2022-07-13	6.0
+12.0	Beef - Kindney, Whole	2021-08-15	34.0	2023-02-06	2.0
+13.0	Wine - Bouchard La Vignee Pinot	2021-12-18	52.0	2023-06-17	76.0
+14.0	Bread - Roll, Italian	2022-04-17	50.0	2023-02-20	63.0
+15.0	Tea - Vanilla Chai	2021-07-13	20.0	2023-06-21	8.0
+16.0	Temperature Recording Station	2022-01-25	14.0	2023-01-17	83.0
+17.0	Ecolab Crystal Fusion	2022-06-03	23.0	2023-03-04	32.0
+18.0	Wine - Chianti Classico Riserva	2022-05-22	67.0	2023-04-15	18.0
+19.0	Truffle Cups - White Paper	2021-12-27	70.0	2022-09-16	53.0
+20.0	Avocado	2022-05-04	17.0	2023-03-31	46.0
+21.0	Butter - Salted	2021-12-22	80.0	2023-03-19	57.0
+22.0	Chocolate Bar - Coffee Crisp	2022-01-31	7.0	2023-04-13	44.0
+23.0	Lamb - Leg, Diced	2021-12-04	77.0	2023-04-17	91.0
+24.0	Spice - Montreal Steak Spice	2022-03-17	89.0	2023-03-19	51.0
+25.0	Wine - Red Oakridge Merlot	2021-09-08	46.0	2023-04-05	70.0
+26.0	Beans - Fine	2021-07-16	20.0	2023-04-08	48.0
+27.0	Soup - Campbells Beef Noodle	2022-01-20	41.0	2022-07-04	24.0
+28.0	Doilies - 10, Paper	2021-08-15	58.0	2022-11-12	74.0
+29.0	Wine - Red, Mouton Cadet	2021-09-27	5.0	2023-01-11	33.0
+30.0	Beets - Candy Cane, Organic	2021-10-04	65.0	2023-05-14	74.0
+31.0	Cheese - Goat	2022-04-28	58.0	2023-01-16	51.0
+32.0	Shrimp - Black Tiger 6 - 8	2021-12-13	73.0	2023-04-19	27.0
+33.0	Octopus - Baby, Cleaned	2021-10-24	73.0	2023-05-04	83.0
+34.0	Bay Leaf Fresh	2022-04-17	46.0	2023-04-04	12.0
+35.0	Island Oasis - Ice Cream Mix	2021-10-11	17.0	2022-08-27	57.0
+36.0	Oregano - Dry, Rubbed	2022-02-23	92.0	2022-07-16	93.0
+37.0	Soup - Campbells Beef Stew	2022-05-01	91.0	2023-03-15	36.0
+38.0	Basil - Seedlings Cookstown	2022-05-10	38.0	2023-05-07	28.0
+39.0	Tea - Darjeeling, Azzura	2022-06-04	52.0	2023-02-23	43.0
+40.0	Sage - Fresh	2021-12-25	86.0	2023-03-12	67.0
+41.0	Basil - Fresh	2021-07-23	36.0	2023-04-08	3.0
+42.0	Pork - Loin, Bone - In	2022-04-01	63.0	2023-04-13	58.0
+43.0	Clam - Cherrystone	2022-03-03	27.0	2022-08-11	15.0
+44.0	Noodles - Steamed Chow Mein	2022-01-23	75.0	2022-09-15	81.0
+45.0	Nut - Pecan, Halves	2022-05-13	12.0	2022-09-24	1.0
+46.0	Lamb Shoulder Boneless Nz	2022-02-21	50.0	2023-06-04	56.0
+47.0	Pie Pecan	2022-02-14	96.0	2023-03-24	7.0
+48.0	Wine - White, Pinot Grigio	2022-02-15	47.0	2022-10-20	5.0
+49.0	Pizza Pizza Dough	2022-02-11	7.0	2022-09-05	36.0
+50.0	Pastry - Cheese Baked Scones	2022-02-02	36.0	2022-10-18	100.0
+51.0	Foil Wrap	2022-04-01	77.0	2022-07-20	57.0
+52.0	V8 - Vegetable Cocktail	2021-10-18	100.0	2023-01-20	92.0
+53.0	Rabbit - Whole	2021-10-01	57.0	2022-08-31	84.0
+54.0	Ecolab - Solid Fusion	2022-01-24	89.0	2023-01-21	34.0
+55.0	Vodka - Moskovskaya	2021-11-26	8.0	2022-12-21	54.0
+56.0	Island Oasis - Banana Daiquiri	2021-11-08	11.0	2022-12-16	36.0
+57.0	Beef - Short Ribs	2022-01-06	86.0	2022-08-14	21.0
+58.0	Muffin - Mix - Creme Brule 15l	2022-04-21	31.0	2023-03-19	20.0
+59.0	Asparagus - Green, Fresh	2021-08-14	59.0	2022-09-15	24.0
+60.0	Butter - Salted, Micro	2022-01-22	98.0	2022-07-20	59.0
+61.0	Yeast Dry - Fleischman	2022-01-15	84.0	2022-09-06	85.0
+62.0	Wine - Manischewitz Concord	2021-10-28	73.0	2023-01-06	65.0
+63.0	Mangostein	2021-11-04	79.0	2023-03-23	60.0
+64.0	Kumquat	2021-08-31	94.0	2023-01-05	72.0
+65.0	Bagel - Everything	2021-10-29	84.0	2023-01-11	47.0
+66.0	Bread - Pain Au Liat X12	2021-12-02	98.0	2022-06-25	92.0
+67.0	Soup - Base Broth Chix	2021-10-17	34.0	2022-08-24	32.0
+68.0	Carbonated Water - Cherry	2021-10-10	37.0	2022-08-08	5.0
+69.0	Marjoram - Dried, Rubbed	2022-05-22	14.0	2022-07-19	44.0
+70.0	Cheese - Asiago	2022-05-14	21.0	2023-02-28	50.0
+71.0	Pork - Tenderloin, Frozen	2022-05-29	95.0	2022-11-16	85.0
+72.0	Pastry - Plain Baked Croissant	2022-05-09	1.0	2023-06-20	94.0
+73.0	Kiwi Gold Zespri	2021-12-26	62.0	2022-12-19	24.0
+74.0	Wine - Mas Chicet Rose, Vintage	2021-11-28	86.0	2022-06-28	60.0
+75.0	Sauce - Apple, Unsweetened	2021-12-27	100.0	2022-11-25	35.0
+76.0	Beef - Kobe Striploin	2021-08-07	80.0	2023-03-13	45.0
+77.0	Coffee - Egg Nog Capuccino	2021-11-02	27.0	2022-07-14	48.0
+78.0	Chicken - Diced, Cooked	2022-01-18	83.0	2022-09-07	7.0
+79.0	Frangelico	2022-02-07	61.0	2022-08-02	66.0
+80.0	Island Oasis - Peach Daiquiri	2021-12-06	95.0	2022-07-21	82.0
+81.0	Cake - Mini Potato Pancake	2021-07-29	27.0	2022-10-05	15.0
+82.0	Cake - Mini Cheesecake	2021-08-23	92.0	2023-02-23	93.0
+83.0	Graham Cracker Mix	2022-01-26	13.0	2022-08-14	65.0
+84.0	Foil - Round Foil	2022-02-12	1.0	2023-01-06	69.0
+85.0	Sansho Powder	2022-02-12	92.0	2022-10-11	27.0
+86.0	Vodka - Lemon, Absolut	2022-03-23	62.0	2023-03-20	3.0
+87.0	Oil - Truffle, White	2022-05-22	41.0	2023-01-20	24.0
+88.0	Chilli Paste, Hot Sambal Oelek	2021-12-27	45.0	2022-09-10	89.0
+89.0	Zucchini - Green	2022-04-04	78.0	2022-09-29	66.0
+90.0	Gingerale - Schweppes, 355 Ml	2021-10-05	38.0	2022-06-26	79.0
+91.0	Beets	2021-06-30	24.0	2023-04-20	44.0
+92.0	Cheese - Augre Des Champs	2021-12-18	81.0	2023-06-20	97.0
+93.0	Cherries - Frozen	2022-05-14	53.0	2022-07-22	87.0
+94.0	Ham Black Forest	2022-04-30	98.0	2023-02-08	54.0
+95.0	Nutmeg - Ground	2021-11-07	28.0	2023-04-02	71.0
+96.0	Soup - Campbells, Spinach Crm	2022-03-22	27.0	2022-11-23	49.0
+97.0	Cheese - Pont Couvert	2021-11-04	17.0	2023-05-01	63.0
+98.0	External Supplier	2022-01-03	74.0	2023-02-05	68.0
+99.0	Pasta - Fettuccine, Dry	2022-05-23	17.0	2023-01-19	56.0
+100.0	Macaroons - Homestyle Two Bit	2022-05-16	52.0	2023-04-13	85.0
+101.0	Croissant, Raw - Mini	2021-08-04	50.0	2022-10-27	29.0
+102.0	V8 - Berry Blend	2022-03-28	65.0	2023-04-17	46.0
+103.0	Garlic Powder	2022-01-12	8.0	2022-11-08	28.0
+104.0	Turkey - Breast, Double	2022-05-30	94.0	2023-05-22	90.0
+105.0	Bread - Kimel Stick Poly	2021-10-30	48.0	2022-09-20	57.0
+106.0	Bouq All Italian - Primerba	2021-10-19	15.0	2023-02-25	42.0
+107.0	Beer - Fruli	2022-05-10	70.0	2022-09-16	47.0
+108.0	Wine - Casillero Deldiablo	2022-05-20	70.0	2022-08-01	3.0
+109.0	Paper Cocktail Umberlla 80 - 180	2021-08-26	84.0	2022-10-16	38.0
+110.0	Shortbread - Cookie Crumbs	2021-11-11	40.0	2023-05-12	65.0
+111.0	Soup - Knorr, Chicken Gumbo	2022-05-01	25.0	2023-03-20	35.0
+112.0	Pepper - Scotch Bonnet	2021-12-21	72.0	2023-04-09	52.0
+113.0	Fork - Plastic	2022-06-18	34.0	2023-03-03	99.0
+114.0	Coffee - Egg Nog Capuccino	2021-08-28	44.0	2023-05-29	80.0
+115.0	Crab - Claws, 26 - 30	2022-02-02	33.0	2022-08-11	75.0
+116.0	Crab - Dungeness, Whole	2021-10-29	92.0	2022-08-11	14.0
+117.0	Aspic - Light	2022-04-24	10.0	2022-11-25	38.0
+118.0	Ham - Procutinni	2022-05-20	36.0	2023-05-16	2.0
+119.0	Lamb - Loin, Trimmed, Boneless	2022-04-21	61.0	2022-06-27	8.0
+120.0	Breakfast Quesadillas	2022-06-10	97.0	2023-05-08	50.0
+121.0	Mushroom - Porcini, Dry	2021-10-27	4.0	2022-07-28	80.0
+122.0	Oil - Olive, Extra Virgin	2021-09-24	20.0	2022-12-10	53.0
+123.0	Yeast Dry - Fleischman	2022-02-25	64.0	2022-12-12	53.0
+124.0	Nougat - Paste / Cream	2021-10-20	69.0	2023-06-09	55.0
+125.0	Bag Stand	2021-10-06	42.0	2022-07-19	54.0
+126.0	Blueberries	2022-06-18	43.0	2022-06-29	25.0
+127.0	Wine - White, Concha Y Toro	2021-12-16	58.0	2023-06-19	78.0
+128.0	Shiro Miso	2021-11-18	54.0	2022-08-19	78.0
+129.0	Cake - Miini Cheesecake Cherry	2022-04-15	23.0	2022-08-22	68.0
+130.0	Paste - Black Olive	2021-09-19	69.0	2023-04-12	45.0
+131.0	Nestea - Ice Tea, Diet	2022-06-04	50.0	2022-09-09	29.0
+132.0	Sugar - Brown, Individual	2021-08-19	32.0	2022-08-15	55.0
+133.0	Star Anise, Whole	2021-10-18	77.0	2023-01-30	18.0
+134.0	Wine - Balbach Riverside	2022-05-27	82.0	2022-12-03	30.0
+135.0	Wine - Riesling Alsace Ac 2001	2021-12-12	59.0	2023-03-15	32.0
+136.0	Wine - Beaujolais Villages	2021-08-01	67.0	2022-08-22	4.0
+137.0	Pesto - Primerba, Paste	2022-03-12	83.0	2022-10-10	39.0
+138.0	Port - 74 Brights	2022-02-05	35.0	2022-10-20	54.0
+139.0	Oil - Cooking Spray	2021-09-18	55.0	2023-01-18	28.0
+140.0	Coffee Beans - Chocolate	2022-02-19	89.0	2022-07-01	82.0
+141.0	Sprouts - Alfalfa	2022-02-04	1.0	2023-01-15	89.0
+142.0	Pie Pecan	2021-09-10	43.0	2023-02-24	45.0
+143.0	Rum - Spiced, Captain Morgan	2021-10-31	10.0	2023-04-19	63.0
+144.0	Emulsifier	2021-10-30	30.0	2023-06-10	20.0
+145.0	Wine - Jafflin Bourgongone	2021-09-29	5.0	2023-05-30	84.0
+146.0	Coffee - Espresso	2021-10-17	43.0	2023-06-01	28.0
+147.0	Steamers White	2021-08-25	89.0	2022-11-01	92.0
+148.0	Water Chestnut - Canned	2021-07-15	44.0	2023-02-01	61.0
+149.0	Sprouts - Corn	2022-02-13	24.0	2023-01-12	4.0
+150.0	Tart - Raisin And Pecan	2022-04-18	18.0	2023-02-15	79.0
+151.0	Bread - Roll, Calabrese	2021-09-25	93.0	2022-07-25	90.0
+152.0	Instant Coffee	2021-11-25	37.0	2022-12-14	59.0
+153.0	Cocoa Feuilletine	2022-02-02	39.0	2022-10-09	73.0
+154.0	Wine - Cave Springs Dry Riesling	2021-07-12	32.0	2022-08-06	45.0
+155.0	Lamb - Leg, Diced	2021-11-24	38.0	2023-03-09	70.0
+156.0	Foam Espresso Cup Plain White	2022-02-18	100.0	2022-09-10	70.0
+157.0	Aspic - Amber	2021-12-21	35.0	2023-03-28	46.0
+158.0	Jerusalem Artichoke	2021-10-31	25.0	2023-02-23	22.0
+159.0	Fork - Plastic	2021-12-31	66.0	2023-05-30	26.0
+160.0	Oil - Shortening,liqud, Fry	2021-12-18	33.0	2023-06-12	8.0
+161.0	Beef - Rib Eye Aaa	2022-02-13	84.0	2023-04-29	85.0
+162.0	Wine - Cotes Du Rhone	2022-01-23	39.0	2022-10-30	4.0
+163.0	Pumpkin	2021-10-12	61.0	2023-01-05	79.0
+164.0	Spice - Pepper Portions	2022-03-14	38.0	2023-05-31	45.0
+165.0	Water Chestnut - Canned	2021-10-09	50.0	2022-08-01	92.0
+166.0	Pomegranates	2022-01-16	30.0	2023-06-08	31.0
+167.0	Artichokes - Knobless, White	2021-09-08	43.0	2022-10-03	55.0
+168.0	Muffin Puck Ww Carrot	2022-03-13	70.0	2022-10-06	79.0
+169.0	Gin - Gilbeys London, Dry	2022-06-20	74.0	2023-04-06	12.0
+170.0	Chips - Potato Jalapeno	2021-07-17	91.0	2023-04-14	85.0
+171.0	Squid - U - 10 Thailand	2022-05-20	53.0	2023-04-02	39.0
+172.0	Peppercorns - Pink	2022-05-22	54.0	2023-01-22	18.0
+173.0	Coffee - Irish Cream	2021-08-30	63.0	2023-01-23	36.0
+174.0	Gatorade - Xfactor Berry	2022-04-13	5.0	2023-06-08	22.0
+175.0	Syrup - Monin, Amaretta	2022-05-17	18.0	2023-06-15	65.0
+176.0	Syrup - Monin, Swiss Choclate	2021-11-28	68.0	2023-01-10	96.0
+177.0	Tart Shells - Barquettes, Savory	2021-08-07	49.0	2022-12-26	40.0
+178.0	Seaweed Green Sheets	2021-12-23	80.0	2022-09-29	75.0
+179.0	Gatorade - Orange	2022-01-21	52.0	2023-03-08	35.0
+180.0	Mints - Striped Red	2021-09-09	97.0	2022-07-17	86.0
+181.0	Soup - Campbells, Chix Gumbo	2021-09-16	48.0	2023-04-11	79.0
+182.0	Puree - Strawberry	2021-12-01	25.0	2023-05-09	56.0
+183.0	Bread - Bistro Sour	2022-05-10	3.0	2023-02-18	78.0
+184.0	Wine - Vovray Sec Domaine Huet	2022-05-15	91.0	2022-07-22	8.0
+185.0	Wine - White, Ej	2022-01-05	47.0	2022-10-15	57.0
+186.0	Wine - Sake	2021-07-25	53.0	2023-03-08	55.0
+187.0	Pasta - Ravioli	2022-03-30	6.0	2023-06-06	94.0
+188.0	Creme De Banane - Marie	2021-10-22	60.0	2022-09-09	68.0
+189.0	Fib N9 - Prague Powder	2021-11-10	44.0	2022-10-28	39.0
+190.0	Nori Sea Weed - Gold Label	2022-06-06	63.0	2023-02-27	36.0
+191.0	Apple - Granny Smith	2021-11-01	50.0	2022-09-25	21.0
+192.0	Wine - Riesling Alsace Ac 2001	2021-12-04	64.0	2023-02-20	83.0
+193.0	Muffin - Banana Nut Individual	2021-12-25	71.0	2022-08-18	90.0
+194.0	Apple - Granny Smith	2022-04-10	63.0	2023-03-30	84.0
+195.0	Potatoes - Idaho 100 Count	2022-01-05	52.0	2022-08-14	2.0
+196.0	Towel Multifold	2022-01-16	45.0	2022-12-20	30.0
+197.0	Onion - Dried	2022-06-02	53.0	2022-07-15	57.0
+198.0	Sprouts Dikon	2021-08-29	54.0	2023-03-11	13.0
+199.0	Club Soda - Schweppes, 355 Ml	2022-02-24	73.0	2022-08-08	51.0
+200.0	Wine - Dubouef Macon - Villages	2022-06-05	7.0	2022-10-25	60.0
+201.0	Bread - French Baquette	2021-10-02	34.0	2022-10-15	83.0
+202.0	Mustard Prepared	2021-09-24	72.0	2022-10-10	51.0
+203.0	Brandy Cherry - Mcguinness	2021-06-27	8.0	2022-10-09	5.0
+204.0	Crab - Claws, 26 - 30	2022-05-28	45.0	2022-09-21	100.0
+205.0	Bread - Granary Small Pull	2022-04-15	52.0	2022-06-28	70.0
+206.0	Beef Wellington	2021-11-04	32.0	2022-11-19	94.0
+207.0	Cake Slab	2021-11-11	14.0	2023-03-16	37.0
+208.0	Yeast Dry - Fleischman	2021-06-26	24.0	2022-09-06	69.0
+209.0	Spring Roll Veg Mini	2022-01-12	67.0	2022-09-28	98.0
+210.0	Bag Stand	2022-01-23	40.0	2022-10-20	52.0
+211.0	Table Cloth 72x144 White	2022-05-15	94.0	2023-02-01	2.0
+212.0	Vinegar - Raspberry	2021-12-03	75.0	2022-09-01	66.0
+213.0	Spice - Greek 1 Step	2022-03-18	69.0	2023-03-17	63.0
+214.0	Pepper - Yellow Bell	2022-03-08	13.0	2022-08-03	68.0
+215.0	Chocolate - Semi Sweet, Calets	2021-08-26	85.0	2023-01-01	14.0
+216.0	Rolled Oats	2021-09-06	69.0	2023-02-12	3.0
+217.0	Durian Fruit	2022-02-12	36.0	2023-03-11	30.0
+218.0	Coriander - Seed	2022-01-15	36.0	2022-10-02	92.0
+219.0	Wine - Toasted Head	2022-01-18	99.0	2023-03-04	76.0
+220.0	Foam Espresso Cup Plain White	2021-11-02	2.0	2023-03-13	100.0
+221.0	Olive - Spread Tapenade	2021-08-28	37.0	2023-04-06	96.0
+222.0	Parsnip	2022-05-19	22.0	2023-01-16	97.0
+223.0	V8 Splash Strawberry Kiwi	2021-08-25	86.0	2022-12-07	44.0
+224.0	Jameson Irish Whiskey	2021-09-25	66.0	2023-06-07	90.0
+225.0	Flour - Corn, Fine	2022-02-16	9.0	2022-11-26	8.0
+226.0	Soup - Knorr, French Onion	2022-03-24	12.0	2023-03-25	59.0
+227.0	Cabbage Roll	2021-09-20	50.0	2023-03-08	57.0
+228.0	Oil - Olive, Extra Virgin	2021-10-28	63.0	2023-04-01	21.0
+229.0	Cocoa Powder - Natural	2022-01-06	50.0	2023-03-10	6.0
+230.0	Juice - Pineapple, 341 Ml	2021-12-18	69.0	2023-02-16	27.0
+231.0	Pie Filling - Apple	2021-12-24	76.0	2023-04-13	71.0
+232.0	Pie Shells 10	2022-06-21	82.0	2022-09-08	15.0
+233.0	Carbonated Water - Raspberry	2021-07-22	44.0	2023-01-11	51.0
+234.0	Container - Clear 16 Oz	2022-03-01	35.0	2023-05-26	96.0
+235.0	Tortillas - Flour, 8	2022-06-10	85.0	2023-04-09	3.0
+236.0	Tandoori Curry Paste	2021-06-27	39.0	2023-03-31	27.0
+237.0	Asparagus - White, Canned	2021-09-07	78.0	2022-10-30	10.0
+238.0	Broom And Broom Rack White	2021-06-30	90.0	2023-01-05	2.0
+239.0	Persimmons	2022-05-29	62.0	2023-04-10	45.0
+240.0	Sausage - Breakfast	2021-12-08	11.0	2022-12-27	7.0
+241.0	Cassis	2022-04-22	74.0	2023-04-16	16.0
+242.0	Langers - Cranberry Cocktail	2022-02-13	22.0	2023-01-06	34.0
+243.0	Vector Energy Bar	2021-07-28	93.0	2023-01-17	97.0
+244.0	Beans - French	2022-01-21	38.0	2023-04-09	52.0
+245.0	Cheese - Cream Cheese	2022-06-04	58.0	2023-05-04	16.0
+246.0	Tarragon - Primerba, Paste	2022-01-05	6.0	2023-06-20	80.0
+247.0	Flower - Potmums	2022-04-13	6.0	2022-12-16	52.0
+248.0	Stock - Veal, Brown	2022-04-09	68.0	2022-07-08	53.0
+249.0	Corn Shoots	2022-05-03	22.0	2023-05-06	93.0
+250.0	Roe - White Fish	2021-12-07	60.0	2022-07-15	12.0
+251.0	Red Pepper Paste	2021-07-01	45.0	2023-06-22	66.0
+252.0	Ecolab Digiclean Mild Fm	2021-10-14	34.0	2023-01-09	9.0
+253.0	Yoghurt Tubes	2021-10-02	30.0	2023-06-21	30.0
+254.0	Wine - Red, Lurton Merlot De	2022-02-12	32.0	2023-01-19	18.0
+255.0	Oil - Olive	2021-08-06	18.0	2022-08-06	91.0
+256.0	Table Cloth 62x114 Colour	2022-05-28	1.0	2023-04-01	74.0
+257.0	Nut - Hazelnut, Whole	2022-06-16	30.0	2023-06-06	90.0
+258.0	Vermouth - White, Cinzano	2022-06-03	28.0	2022-12-27	46.0
+259.0	Salt - Table	2022-04-29	50.0	2022-11-28	49.0
+260.0	Bread - Pita	2022-01-31	52.0	2022-07-05	50.0
+261.0	Loquat	2021-07-29	52.0	2022-08-02	32.0
+262.0	Coconut - Creamed, Pure	2021-07-14	15.0	2023-05-25	55.0
+263.0	Bread - Roll, Whole Wheat	2022-05-26	9.0	2022-12-04	71.0
+264.0	Lemonade - Black Cherry, 591 Ml	2021-12-05	25.0	2023-03-08	69.0
+265.0	Honey - Liquid	2022-05-20	23.0	2022-06-25	20.0
+266.0	Bar Mix - Lime	2022-05-23	4.0	2022-09-11	16.0
+267.0	Pepper - Scotch Bonnet	2022-02-13	46.0	2023-02-20	75.0
+268.0	Magnotta - Bel Paese White	2022-02-14	87.0	2023-04-19	17.0
+269.0	Kiwi Gold Zespri	2021-12-10	55.0	2022-06-30	19.0
+270.0	Cheese - Grie Des Champ	2022-04-07	39.0	2022-12-27	99.0
+271.0	Guinea Fowl	2022-05-06	95.0	2022-09-08	20.0
+272.0	Cheese - Feta	2021-12-02	46.0	2022-12-15	71.0
+273.0	Wine - Sake	2021-07-14	36.0	2023-04-22	93.0
+274.0	Longan	2022-01-11	30.0	2022-11-27	50.0
+275.0	Beef - Rib Eye Aaa	2021-08-23	88.0	2023-06-14	43.0
+276.0	Oil - Olive	2022-01-02	7.0	2023-06-11	96.0
+277.0	Yogurt - French Vanilla	2022-01-12	13.0	2022-09-20	27.0
+278.0	Cookies - Fortune	2021-07-08	65.0	2023-04-18	95.0
+279.0	Pepper - Roasted Red	2021-09-13	47.0	2023-02-13	66.0
+280.0	Mix Pina Colada	2021-10-05	27.0	2022-12-14	58.0
+281.0	Icecream Cone - Areo Chocolate	2022-01-30	63.0	2022-11-12	6.0
+282.0	Soup Bowl Clear 8oz92008	2021-08-25	9.0	2023-06-16	31.0
+283.0	Cheese Cloth No 100	2022-05-17	89.0	2022-07-04	91.0
+284.0	Cheese - Havarti, Roasted Garlic	2022-02-06	96.0	2022-09-17	88.0
+285.0	Ecolab - Mikroklene 4/4 L	2021-12-20	20.0	2023-03-23	52.0
+286.0	Flour - Cake	2021-07-10	95.0	2023-03-07	70.0
+287.0	Turkey - Breast, Smoked	2022-06-23	53.0	2023-03-25	51.0
+288.0	Salt - Rock, Course	2021-12-21	20.0	2023-01-03	45.0
+289.0	Tahini Paste	2022-03-04	53.0	2023-03-22	78.0
+290.0	Bread - Pumpernickel	2022-02-17	41.0	2022-07-16	19.0
+291.0	Chocolate - Unsweetened	2021-09-02	4.0	2022-07-24	18.0
+292.0	Chicken Thigh - Bone Out	2021-12-20	41.0	2022-07-01	23.0
+293.0	Wine - Alsace Gewurztraminer	2022-03-06	22.0	2023-06-13	52.0
+294.0	Fish - Scallops, Cold Smoked	2021-09-21	3.0	2022-11-19	29.0
+295.0	Bagel - Ched Chs Presliced	2022-04-30	30.0	2022-10-12	44.0
+296.0	Wine - Ruffino Chianti Classico	2022-05-07	25.0	2022-07-24	14.0
+297.0	Potatoes - Mini White 3 Oz	2021-09-13	8.0	2023-01-06	14.0
+298.0	Onions - White	2022-03-01	71.0	2022-11-15	89.0
+299.0	Swordfish Loin Portions	2021-08-24	1.0	2022-07-05	85.0
+300.0	Bread - Mini Hamburger Bun	2022-03-19	32.0	2023-04-27	17.0
+301.0	Wheat - Soft Kernal Of Wheat	2022-05-24	13.0	2022-08-11	22.0
+302.0	Lentils - Green, Dry	2022-01-22	13.0	2023-02-04	48.0
+303.0	Wasabi Powder	2022-04-25	11.0	2023-04-05	48.0
+304.0	Raisin - Golden	2021-11-08	58.0	2022-08-22	74.0
+305.0	Shrimp - 150 - 250	2021-12-22	29.0	2022-11-30	78.0
+306.0	Yoghurt Tubes	2022-01-19	77.0	2022-12-07	89.0
+307.0	Wine - White, Pelee Island	2022-01-31	24.0	2023-05-24	55.0
+308.0	Flour - Chickpea	2021-08-26	34.0	2023-02-11	10.0
+309.0	Wine - Carmenere Casillero Del	2022-01-19	28.0	2022-09-05	15.0
+310.0	Sauce Bbq Smokey	2022-06-23	11.0	2023-06-18	42.0
+311.0	Cheese - Parmesan Grated	2022-04-09	57.0	2023-05-06	12.0
+312.0	Chips Potato All Dressed - 43g	2022-05-23	5.0	2023-01-04	33.0
+313.0	Turkey Leg With Drum And Thigh	2021-11-19	74.0	2023-01-20	47.0
+314.0	Flower - Carnations	2022-04-02	58.0	2022-12-06	77.0
+315.0	Beets - Mini Golden	2022-04-01	75.0	2023-04-05	50.0
+316.0	Lettuce - Lambs Mash	2021-09-10	51.0	2023-01-20	68.0
+317.0	Pastrami	2021-11-13	71.0	2022-09-07	73.0
+318.0	Ice Cream Bar - Hagen Daz	2021-07-04	69.0	2022-09-28	15.0
+319.0	Spinach - Spinach Leaf	2022-02-15	9.0	2022-11-20	78.0
+320.0	Juice - Tomato, 10 Oz	2021-06-26	64.0	2023-01-06	88.0
+321.0	Beef - Ox Tail, Frozen	2021-07-14	43.0	2022-07-17	91.0
+322.0	Bread - Pita	2022-06-18	70.0	2022-12-02	88.0
+323.0	Potatoes - Parissienne	2021-08-01	22.0	2023-02-11	44.0
+324.0	Food Colouring - Orange	2021-08-18	76.0	2022-10-06	65.0
+325.0	Cod - Salted, Boneless	2022-02-14	64.0	2023-02-11	36.0
+326.0	Bread - Corn Muffaletta	2022-01-10	47.0	2022-11-18	67.0
+327.0	Curry Powder Madras	2021-06-28	48.0	2022-07-04	73.0
+328.0	Ham - Cooked Bayonne Tinned	2021-09-16	35.0	2022-07-17	49.0
+329.0	Cup - 4oz Translucent	2022-01-06	48.0	2023-02-16	83.0
+330.0	True - Vue Containers	2021-11-07	19.0	2023-04-12	72.0
+331.0	Seabream Whole Farmed	2021-12-22	21.0	2023-03-11	37.0
+332.0	Rum - Dark, Bacardi, Black	2022-04-02	27.0	2023-04-03	56.0
+333.0	Chicken Breast Wing On	2022-05-24	39.0	2022-08-10	97.0
+334.0	Rice - Jasmine Sented	2021-08-04	46.0	2022-12-20	82.0
+335.0	Bag Stand	2021-07-01	81.0	2023-03-01	64.0
+336.0	Bread - Pain Au Liat X12	2022-03-11	57.0	2022-09-24	64.0
+337.0	Table Cloth 91x91 Colour	2021-11-17	4.0	2022-10-01	50.0
+338.0	Rye Special Old	2021-10-08	73.0	2023-05-02	13.0
+339.0	Bread - Bistro Sour	2022-01-09	7.0	2023-01-31	22.0
+340.0	Roe - Flying Fish	2021-08-06	58.0	2023-01-18	67.0
+341.0	Pepper - Gypsy Pepper	2021-10-03	75.0	2022-12-21	36.0
+342.0	Ham - Proscuitto	2021-07-26	27.0	2022-11-06	99.0
+343.0	Tuna - Salad Premix	2022-02-23	37.0	2023-01-24	51.0
+344.0	Loquat	2021-08-14	42.0	2023-04-07	21.0
+345.0	Banana - Leaves	2022-02-03	27.0	2023-05-26	37.0
+346.0	Oil - Avocado	2021-08-09	9.0	2022-07-14	70.0
+347.0	Chestnuts - Whole,canned	2022-05-20	57.0	2022-07-03	55.0
+348.0	Tea - Lemon Scented	2022-01-05	24.0	2022-12-25	4.0
+349.0	Wine - White Cab Sauv.on	2022-01-24	59.0	2022-08-17	38.0
+350.0	Syrup - Monin - Passion Fruit	2022-06-03	8.0	2023-01-06	39.0
+351.0	Vodka - Lemon, Absolut	2022-03-13	53.0	2022-12-05	42.0
+352.0	Pate - Cognac	2021-09-29	89.0	2022-11-15	72.0
+353.0	Mousse - Banana Chocolate	2021-12-17	66.0	2022-09-12	69.0
+354.0	Grapes - Green	2021-09-19	65.0	2022-11-04	38.0
+355.0	Puree - Strawberry	2022-05-24	82.0	2022-07-14	29.0
+356.0	Skirt - 24 Foot	2022-02-19	59.0	2022-08-06	25.0
+357.0	Glaze - Clear	2022-04-28	32.0	2023-03-31	27.0
+358.0	Tomatoes - Grape	2021-10-13	5.0	2022-10-12	89.0
+359.0	Dehydrated Kelp Kombo	2021-08-03	39.0	2022-12-20	22.0
+360.0	Trout - Rainbow, Frozen	2022-04-22	2.0	2023-01-14	90.0
+361.0	Crush - Grape, 355 Ml	2022-03-09	6.0	2023-01-15	94.0
+362.0	Temperature Recording Station	2022-01-09	62.0	2022-10-01	38.0
+363.0	Alize Sunset	2021-11-05	72.0	2023-02-17	91.0
+364.0	Tart Shells - Savory, 3	2022-03-31	51.0	2023-04-24	95.0
+365.0	Gelatine Powder	2021-09-01	96.0	2022-10-11	63.0
+366.0	Paper Cocktail Umberlla 80 - 180	2021-08-15	76.0	2022-07-22	4.0
+367.0	Asparagus - Green, Fresh	2021-08-30	19.0	2022-12-09	78.0
+368.0	Wine - Fontanafredda Barolo	2022-06-01	100.0	2023-03-21	61.0
+369.0	Coffee Cup 12oz 5342cd	2021-07-06	63.0	2022-11-16	92.0
+370.0	Wine - White, Pelee Island	2021-10-31	43.0	2022-09-23	78.0
+371.0	Glass Clear 8 Oz	2022-02-21	96.0	2023-03-14	2.0
+372.0	Mousse - Banana Chocolate	2021-08-08	35.0	2022-07-11	9.0
+373.0	Pepper - Green Thai	2021-07-19	15.0	2023-03-29	77.0
+374.0	Cup - 4oz Translucent	2021-11-29	73.0	2023-02-08	77.0
+375.0	Syrup - Kahlua Chocolate	2021-10-23	78.0	2023-04-01	94.0
+376.0	Cheese - Brick With Pepper	2022-01-19	51.0	2023-01-03	86.0
+377.0	Garlic - Elephant	2022-03-02	10.0	2022-07-18	88.0
+378.0	Pork - Backs - Boneless	2021-11-12	9.0	2023-02-17	97.0
+379.0	Rabbit - Legs	2021-07-24	68.0	2023-04-08	59.0
+380.0	Curry Powder	2021-08-19	90.0	2022-08-03	83.0
+381.0	Juice - V8, Tomato	2021-08-15	15.0	2022-07-10	41.0
+382.0	Papayas	2021-10-12	81.0	2022-12-28	25.0
+383.0	Juice - Clamato, 341 Ml	2021-08-07	80.0	2023-05-19	35.0
+384.0	Rootbeer	2022-03-13	23.0	2023-04-02	12.0
+385.0	Worcestershire Sauce	2022-02-05	31.0	2023-05-16	5.0
+386.0	Tia Maria	2022-02-22	84.0	2023-05-30	90.0
+387.0	Muffin - Zero Transfat	2021-08-07	2.0	2022-08-23	37.0
+388.0	Nut - Cashews, Whole, Raw	2022-01-15	59.0	2022-09-22	47.0
+389.0	Sprouts - Corn	2021-07-31	98.0	2023-05-31	63.0
+390.0	Honey - Comb	2021-09-02	76.0	2022-10-03	22.0
+391.0	Pepper - Green, Chili	2021-09-15	45.0	2022-09-12	65.0
+392.0	Beef - Tenderloin - Aa	2021-08-08	84.0	2022-12-02	1.0
+393.0	Jicama	2022-05-18	18.0	2022-10-05	92.0
+394.0	Wine - Saint - Bris 2002, Sauv	2021-09-23	2.0	2023-04-02	84.0
+395.0	Soho Lychee Liqueur	2022-03-06	85.0	2022-11-02	3.0
+396.0	Pepper - Jalapeno	2021-09-03	66.0	2023-03-10	22.0
+397.0	Wine - Rosso Del Veronese Igt	2022-05-14	98.0	2022-07-23	86.0
+398.0	Lamb - Leg, Boneless	2021-08-18	63.0	2023-06-13	48.0
+399.0	Quail - Whole, Bone - In	2021-11-24	85.0	2023-02-19	43.0
+400.0	Bread - Focaccia Quarter	2022-04-07	24.0	2022-07-01	48.0
+401.0	Quail - Whole, Boneless	2022-05-05	40.0	2023-05-17	48.0
+402.0	Salt - Table	2022-06-13	42.0	2022-07-18	79.0
+403.0	Urban Zen Drinks	2022-06-19	35.0	2023-02-06	20.0
+404.0	Carbonated Water - Blackcherry	2022-02-16	64.0	2023-05-19	50.0
+405.0	Sesame Seed	2021-12-05	48.0	2022-07-27	3.0
+406.0	Tuna - Loin	2021-12-19	52.0	2022-12-04	40.0
+407.0	Chocolate Bar - Coffee Crisp	2022-01-01	44.0	2023-03-01	33.0
+408.0	Shrimp - Black Tiger 16/20	2021-07-22	50.0	2022-08-08	89.0
+409.0	Liqueur - Melon	2022-04-10	46.0	2022-09-20	70.0
+410.0	Sauce - Gravy, Au Jus, Mix	2022-01-02	46.0	2022-09-05	73.0
+411.0	Mushrooms - Honey	2022-05-16	5.0	2022-11-16	87.0
+412.0	Oats Large Flake	2021-11-28	22.0	2022-08-09	65.0
+413.0	Paste - Black Olive	2021-11-27	89.0	2023-02-15	71.0
+414.0	Butter - Pod	2021-11-29	48.0	2022-07-11	66.0
+415.0	Chocolate Bar - Reese Pieces	2022-06-02	22.0	2022-10-25	79.0
+416.0	Appetizer - Seafood Assortment	2022-05-03	26.0	2023-04-06	83.0
+417.0	Container - Foam Dixie 12 Oz	2022-01-22	22.0	2023-05-01	69.0
+418.0	Dry Ice	2021-11-04	67.0	2023-04-13	6.0
+419.0	Tea - Mint	2021-12-27	94.0	2022-08-17	49.0
+420.0	Veal - Insides, Grains	2021-12-13	23.0	2023-03-09	74.0
+421.0	Grenadine	2021-08-14	64.0	2023-03-17	7.0
+422.0	Beef - Flank Steak	2022-05-06	29.0	2023-01-05	47.0
+423.0	Kirsch - Schloss	2022-03-20	4.0	2023-04-19	33.0
+424.0	Bread - Rosemary Focaccia	2021-12-06	61.0	2023-01-02	11.0
+425.0	Rum - Spiced, Captain Morgan	2022-04-24	96.0	2023-04-18	41.0
+426.0	Ice - Clear, 300 Lb For Carving	2021-11-23	80.0	2022-09-29	90.0
+427.0	Chinese Foods - Chicken Wing	2021-11-20	85.0	2022-09-28	3.0
+428.0	Pastry - Banana Tea Loaf	2021-10-27	80.0	2022-10-01	63.0
+429.0	Long Island Ice Tea	2022-06-16	95.0	2022-12-04	76.0
+430.0	Wine - Manischewitz Concord	2022-01-31	34.0	2023-03-31	48.0
+431.0	Muffin - Blueberry Individual	2022-01-07	31.0	2023-01-23	85.0
+432.0	Coriander - Ground	2022-01-28	28.0	2023-05-17	36.0
+433.0	Yams	2021-09-21	10.0	2023-01-04	78.0
+434.0	Brandy Cherry - Mcguinness	2022-01-30	59.0	2023-04-25	40.0
+435.0	Bread - English Muffin	2021-10-18	35.0	2023-03-27	9.0
+436.0	Pork - Loin, Center Cut	2021-09-24	54.0	2022-10-30	21.0
+437.0	Clams - Canned	2022-05-24	33.0	2023-06-13	63.0
+438.0	Orange - Canned, Mandarin	2022-04-21	8.0	2022-12-12	36.0
+439.0	Celery Root	2021-09-09	85.0	2022-11-27	16.0
+440.0	Muffin Carrot - Individual	2021-10-21	30.0	2022-09-01	90.0
+441.0	Longos - Cheese Tortellini	2022-02-06	35.0	2022-11-01	1.0
+442.0	Pie Pecan	2021-09-22	99.0	2022-06-28	98.0
+443.0	Sauce - Oyster	2021-07-15	31.0	2022-07-16	27.0
+444.0	Wine - Rosso Toscano Igt	2022-05-01	61.0	2023-02-09	46.0
+445.0	Bagel - Whole White Sesame	2021-10-24	87.0	2022-09-15	36.0
+446.0	Sprouts - Pea	2021-08-23	34.0	2023-03-31	12.0
+447.0	Soy Protein	2022-01-30	51.0	2022-11-10	26.0
+448.0	Beer - True North Strong Ale	2022-04-14	10.0	2022-07-28	52.0
+449.0	White Baguette	2021-10-24	33.0	2023-03-26	96.0
+450.0	Doilies - 12, Paper	2022-05-28	62.0	2022-11-25	28.0
+451.0	Papadam	2021-08-17	21.0	2022-08-02	52.0
+452.0	Boogies	2022-05-06	25.0	2023-01-06	80.0
+453.0	Wine - Pinot Noir Pond Haddock	2022-01-24	8.0	2022-11-04	95.0
+454.0	Crab - Dungeness, Whole	2022-01-25	43.0	2022-09-01	28.0
+455.0	Carbonated Water - Lemon Lime	2022-04-05	60.0	2023-05-26	54.0
+456.0	Eggroll	2021-06-27	40.0	2023-05-19	4.0
+457.0	Ecolab - Balanced Fusion	2022-05-05	61.0	2022-09-19	58.0
+458.0	Wine - White, Antinore Orvieto	2021-07-18	38.0	2022-07-27	45.0
+459.0	Wine - Cave Springs Dry Riesling	2021-08-07	10.0	2023-02-10	54.0
+460.0	Tomatoes - Orange	2022-06-17	55.0	2022-10-31	96.0
+461.0	Bread - Triangle White	2021-08-01	26.0	2023-03-12	17.0
+462.0	Dome Lid Clear P92008h	2022-02-10	25.0	2023-05-16	31.0
+463.0	Potatoes - Purple, Organic	2022-06-12	52.0	2022-09-14	32.0
+464.0	Tarts Assorted	2021-06-24	78.0	2022-07-06	26.0
+465.0	Squash - Acorn	2021-11-03	88.0	2022-07-28	3.0
+466.0	Juice - Orangina	2022-03-18	26.0	2023-04-07	40.0
+467.0	Tamarind Paste	2022-01-09	88.0	2023-03-05	41.0
+468.0	Ginger - Crystalized	2021-10-12	79.0	2023-02-06	79.0
+469.0	Slt - Individual Portions	2022-02-01	39.0	2023-04-22	50.0
+470.0	Capers - Ox Eye Daisy	2021-07-23	39.0	2023-01-25	94.0
+471.0	Water Chestnut - Canned	2022-01-16	90.0	2022-07-03	13.0
+472.0	Sauce - Apple, Unsweetened	2022-03-07	41.0	2023-02-19	64.0
+473.0	Beef - Ox Tail, Frozen	2022-06-14	22.0	2022-12-30	42.0
+474.0	Cilantro / Coriander - Fresh	2021-10-12	14.0	2022-10-05	57.0
+475.0	Pasta - Cheese / Spinach Bauletti	2022-02-20	51.0	2022-09-29	43.0
+476.0	Relish	2022-06-07	73.0	2022-11-26	44.0
+477.0	Wine - Rosso Toscano Igt	2022-03-10	83.0	2022-07-23	8.0
+478.0	Tortillas - Flour, 8	2021-10-02	7.0	2023-02-08	84.0
+479.0	Wine - Rioja Campo Viejo	2021-06-28	44.0	2022-10-09	80.0
+480.0	Beef - Prime Rib Aaa	2022-04-19	80.0	2022-11-01	68.0
+481.0	Onions - Red Pearl	2022-06-19	86.0	2022-12-09	26.0
+482.0	Sea Urchin	2022-05-30	83.0	2022-09-02	95.0
+483.0	Scallops - U - 10	2022-02-27	68.0	2022-10-02	89.0
+484.0	Icecream Cone - Areo Chocolate	2022-06-08	84.0	2023-03-03	17.0
+485.0	Veal - Shank, Pieces	2021-10-26	67.0	2023-05-25	3.0
+486.0	Turkey Tenderloin Frozen	2022-04-13	88.0	2022-11-16	95.0
+487.0	Coffee Beans - Chocolate	2022-05-08	75.0	2022-11-12	96.0
+488.0	Squeeze Bottle	2021-11-03	98.0	2022-10-13	5.0
+489.0	Peas - Frozen	2022-03-14	13.0	2023-01-12	50.0
+490.0	Numi - Assorted Teas	2021-10-05	56.0	2023-06-04	97.0
+491.0	Liquid Aminios Acid - Braggs	2022-06-06	13.0	2022-11-10	16.0
+492.0	Cloves - Whole	2021-07-07	100.0	2023-04-09	48.0
+493.0	Cheese Cloth No 60	2022-04-26	26.0	2022-12-21	13.0
+494.0	Cranberry Foccacia	2022-04-05	44.0	2022-07-22	62.0
+495.0	Wine - Charddonnay Errazuriz	2021-10-13	60.0	2023-06-19	23.0
+496.0	Fork - Plastic	2022-02-24	37.0	2023-04-07	84.0
+497.0	Beef - Bones, Cut - Up	2022-02-26	24.0	2023-03-08	47.0
+498.0	Cheese - Cambozola	2021-07-28	25.0	2022-12-22	2.0
+499.0	Wine - Conde De Valdemar	2022-03-10	24.0	2023-03-30	92.0
+500.0	Yeast Dry - Fermipan	2021-11-05	63.0	2022-07-23	48.0
+501.0	Syrup - Monin - Blue Curacao	2021-07-11	69.0	2022-08-26	19.0
+502.0	Wine - Zinfandel California 2002	2022-03-30	79.0	2022-08-03	14.0
+503.0	Beef Flat Iron Steak	2022-02-08	82.0	2023-05-28	89.0
+504.0	Carbonated Water - Blackberry	2021-07-18	83.0	2023-01-01	5.0
+505.0	Sobe - Liz Blizz	2022-02-27	69.0	2023-03-11	14.0
+506.0	Tortillas - Flour, 10	2021-07-31	96.0	2022-10-13	84.0
+507.0	Oats Large Flake	2022-02-25	27.0	2023-01-01	8.0
+508.0	Cheese Cloth No 100	2021-09-02	95.0	2023-04-22	1.0
+509.0	Soup - French Can Pea	2021-11-18	45.0	2022-08-17	50.0
+510.0	Squash - Butternut	2022-01-29	87.0	2022-12-21	51.0
+511.0	Dip - Tapenade	2022-01-12	95.0	2023-01-26	1.0
+512.0	Vinegar - White Wine	2022-03-22	33.0	2022-10-07	61.0
+513.0	Wine - Barolo Fontanafredda	2022-06-01	73.0	2023-04-07	72.0
+514.0	Cheese - Mozzarella, Shredded	2022-04-12	12.0	2022-12-14	25.0
+515.0	Beer - Upper Canada Light	2021-07-03	99.0	2023-06-09	53.0
+516.0	Arctic Char - Fillets	2021-10-28	54.0	2022-08-29	96.0
+517.0	Apple - Macintosh	2022-05-30	32.0	2023-06-15	92.0
+518.0	Loquat	2022-01-19	14.0	2022-07-23	69.0
+519.0	Steampan - Foil	2021-10-08	35.0	2023-05-11	35.0
+520.0	Rosemary - Fresh	2022-05-15	63.0	2023-05-10	27.0
+521.0	Pickles - Gherkins	2021-07-04	100.0	2022-11-11	35.0
+522.0	Oil - Macadamia	2021-08-29	64.0	2023-05-22	9.0
+523.0	Veal - Nuckle	2022-02-16	78.0	2022-08-15	6.0
+524.0	Rice - Brown	2021-09-14	77.0	2022-08-14	57.0
+525.0	Momiji Oroshi Chili Sauce	2022-02-19	57.0	2023-02-03	58.0
+526.0	Lettuce - Curly Endive	2022-01-20	36.0	2023-01-30	71.0
+527.0	Yogurt - Strawberry, 175 Gr	2021-09-23	7.0	2022-12-15	84.0
+528.0	Tequila Rose Cream Liquor	2022-01-24	7.0	2022-11-27	41.0
+529.0	Bread - Dark Rye, Loaf	2022-01-06	8.0	2022-12-07	72.0
+530.0	Mushroom - Chanterelle Frozen	2022-06-08	99.0	2023-04-12	34.0
+531.0	Rice - Long Grain	2021-11-12	6.0	2023-02-03	85.0
+532.0	Potatoes - Mini Red	2022-02-20	100.0	2023-03-28	37.0
+533.0	Bread Foccacia Whole	2021-12-26	17.0	2022-12-25	83.0
+534.0	Napkin - Dinner, White	2021-10-04	36.0	2023-06-21	53.0
+535.0	Creme De Menth - White	2021-09-26	54.0	2023-03-24	6.0
+536.0	Snapple Raspberry Tea	2022-05-12	6.0	2023-03-06	83.0
+537.0	Chicken Giblets	2022-03-30	53.0	2023-04-08	88.0
+538.0	Chicken - Leg, Boneless	2021-12-03	81.0	2023-01-27	27.0
+539.0	Lemon Grass	2021-09-14	18.0	2022-11-09	87.0
+540.0	Dc - Sakura Fu	2022-03-03	85.0	2022-07-28	20.0
+541.0	Oil - Canola	2021-10-20	47.0	2023-05-16	42.0
+542.0	Quinoa	2022-03-10	2.0	2022-07-24	77.0
+543.0	Spice - Peppercorn Melange	2022-04-20	21.0	2022-11-18	58.0
+544.0	Tart Shells - Sweet, 3	2021-09-20	84.0	2023-01-31	38.0
+545.0	Soup - Campbells Tomato Ravioli	2021-10-28	83.0	2022-06-28	32.0
+546.0	Wine - Montecillo Rioja Crianza	2022-03-25	24.0	2022-08-08	14.0
+547.0	Wine - Gato Negro Cabernet	2022-02-24	83.0	2023-02-28	16.0
+548.0	Pepper - Cubanelle	2021-11-26	26.0	2023-06-09	58.0
+549.0	Ecolab - Medallion	2022-03-18	24.0	2023-03-08	85.0
+550.0	Muffin Puck Ww Carrot	2022-01-15	19.0	2022-09-20	79.0
+551.0	Cookies - Englishbay Wht	2022-03-03	35.0	2022-08-31	20.0
+552.0	Beer - Labatt Blue	2021-06-24	44.0	2022-10-19	7.0
+553.0	Wine - White, Pinot Grigio	2021-12-09	8.0	2022-07-15	44.0
+554.0	Pepper - Sorrano	2022-04-11	17.0	2023-06-01	99.0
+555.0	Veal - Knuckle	2022-04-13	54.0	2022-11-07	38.0
+556.0	Jerusalem Artichoke	2021-10-30	1.0	2023-01-19	65.0
+557.0	Juice - Lime	2021-09-01	41.0	2023-02-16	40.0
+558.0	Wine - Ej Gallo Sierra Valley	2022-05-31	68.0	2022-10-09	51.0
+559.0	Beer - Tetleys	2022-03-26	36.0	2023-01-08	27.0
+560.0	7up Diet, 355 Ml	2021-11-05	70.0	2023-02-05	91.0
+561.0	Salami - Genova	2021-11-20	74.0	2022-11-12	85.0
+562.0	Wine - Piper Heidsieck Brut	2022-05-18	90.0	2022-07-09	70.0
+563.0	Sour Puss - Tangerine	2022-06-04	61.0	2022-12-31	43.0
+564.0	Bandage - Finger Cots	2021-11-28	45.0	2023-02-09	48.0
+565.0	Paper Cocktail Umberlla 80 - 180	2022-04-15	20.0	2022-11-20	61.0
+566.0	Tuna - Loin	2021-07-09	35.0	2023-04-01	95.0
+567.0	Cocoa Powder - Natural	2021-08-27	91.0	2023-02-05	89.0
+568.0	Wine - Red, Gallo, Merlot	2021-09-10	30.0	2023-04-01	25.0
+569.0	Eggwhite Frozen	2021-12-12	24.0	2023-02-28	6.0
+570.0	Cassis	2021-10-12	41.0	2023-03-28	78.0
+571.0	Tomatoes - Vine Ripe, Red	2022-01-06	9.0	2023-05-05	53.0
+572.0	Uniform Linen Charge	2021-10-11	7.0	2023-06-04	91.0
+573.0	Bread Ww Cluster	2021-08-31	79.0	2023-02-11	78.0
+574.0	Cheese - Colby	2022-06-20	35.0	2023-05-14	49.0
+575.0	Tuna - Sushi Grade	2021-12-12	92.0	2022-11-19	16.0
+576.0	Pizza Pizza Dough	2021-08-04	63.0	2023-04-24	27.0
+577.0	Soup - Campbells Beef Strogonoff	2022-05-08	24.0	2023-02-23	27.0
+578.0	Bread - Bagels, Plain	2022-02-05	72.0	2023-03-25	60.0
+579.0	Beans - Long, Chinese	2021-07-30	67.0	2023-05-22	96.0
+580.0	Curry Paste - Madras	2021-12-29	55.0	2022-08-29	17.0
+581.0	Curry Powder	2022-06-01	28.0	2023-05-21	18.0
+582.0	Coffee - Decafenated	2022-06-23	46.0	2023-03-10	11.0
+583.0	Muffin Hinge 117n	2022-02-05	52.0	2022-09-22	16.0
+584.0	Flower - Daisies	2021-08-11	49.0	2023-04-14	72.0
+585.0	Wine - Red, Pelee Island Merlot	2021-09-13	51.0	2023-02-17	64.0
+586.0	Oysters - Smoked	2021-08-11	38.0	2023-05-20	72.0
+587.0	Rabbit - Frozen	2022-01-20	66.0	2022-12-03	4.0
+588.0	Longos - Assorted Sandwich	2022-06-23	80.0	2022-11-22	39.0
+589.0	Anchovy Paste - 56 G Tube	2022-03-13	4.0	2023-04-22	20.0
+590.0	Raisin - Dark	2022-02-02	43.0	2022-07-25	3.0
+591.0	Pasta - Cannelloni, Sheets, Fresh	2022-01-14	95.0	2022-12-18	92.0
+592.0	Soup - French Onion, Dry	2021-10-03	59.0	2023-06-08	52.0
+593.0	Juice - Pineapple, 341 Ml	2022-03-02	37.0	2022-10-06	24.0
+594.0	Beef - Ox Tail, Frozen	2022-04-26	66.0	2023-04-28	86.0
+595.0	Eggs - Extra Large	2022-01-23	6.0	2023-02-07	96.0
+596.0	Glass - Wine, Plastic, Clear 5 Oz	2022-06-12	35.0	2023-02-20	10.0
+597.0	Pepper - Chillies, Crushed	2021-12-05	77.0	2022-12-06	75.0
+598.0	Water - Tonic	2021-07-19	29.0	2022-08-06	94.0
+599.0	Cinnamon - Ground	2022-02-16	92.0	2022-08-06	65.0
+600.0	Blueberries - Frozen	2022-05-02	81.0	2023-06-13	68.0
+601.0	Squash - Guords	2021-09-20	95.0	2023-03-11	11.0
+602.0	Tarragon - Fresh	2022-05-07	14.0	2023-06-16	48.0
+603.0	Bag - Regular Kraft 20 Lb	2022-03-29	72.0	2022-10-01	74.0
+604.0	Kale - Red	2021-12-25	31.0	2022-09-30	97.0
+605.0	Yogurt - Banana, 175 Gr	2021-11-18	17.0	2022-08-06	29.0
+606.0	Longos - Assorted Sandwich	2021-11-01	46.0	2022-11-04	50.0
+607.0	Noodles - Steamed Chow Mein	2022-01-22	13.0	2023-01-17	65.0
+608.0	Coffee Beans - Chocolate	2021-09-30	11.0	2022-08-11	67.0
+609.0	Oats Large Flake	2022-03-14	69.0	2023-03-30	8.0
+610.0	Strawberries	2021-09-09	26.0	2023-02-26	2.0
+611.0	Pork - Sausage, Medium	2022-03-25	90.0	2023-04-26	52.0
+612.0	Ecolab - Lime - A - Way 4/4 L	2021-12-20	88.0	2022-08-31	35.0
+613.0	Fiddlehead - Frozen	2022-06-01	12.0	2023-06-02	43.0
+614.0	Trout Rainbow Whole	2022-05-15	77.0	2023-01-12	15.0
+615.0	Pasta - Agnolotti - Butternut	2021-12-18	6.0	2023-04-24	64.0
+616.0	Pepper - Yellow Bell	2021-10-28	24.0	2023-03-14	96.0
+617.0	Crab - Back Fin Meat, Canned	2022-01-25	74.0	2023-01-12	65.0
+618.0	Versatainer Nc - 9388	2022-04-05	25.0	2022-12-31	20.0
+619.0	Cape Capensis - Fillet	2021-08-23	24.0	2022-10-21	33.0
+620.0	Petite Baguette	2021-10-21	97.0	2022-08-16	47.0
+621.0	Chicken - Thigh, Bone In	2021-11-16	65.0	2022-12-01	78.0
+622.0	Couscous	2021-09-30	22.0	2023-02-02	49.0
+623.0	Rye Special Old	2022-02-02	83.0	2022-10-08	10.0
+624.0	Cornstarch	2021-10-03	36.0	2022-09-21	99.0
+625.0	Chocolate Eclairs	2021-09-15	66.0	2023-04-21	90.0
+626.0	Mix - Cappucino Cocktail	2021-07-26	71.0	2022-12-10	15.0
+627.0	Island Oasis - Banana Daiquiri	2021-06-30	68.0	2023-05-27	13.0
+628.0	Juice - Cranberry 284ml	2022-03-22	63.0	2022-10-07	38.0
+629.0	Curry Powder	2021-10-16	31.0	2023-02-08	1.0
+630.0	Mini - Vol Au Vents	2021-07-10	59.0	2022-07-28	66.0
+631.0	Cheese - Ricotta	2022-06-14	28.0	2023-05-09	79.0
+632.0	Plasticspoonblack	2022-02-13	5.0	2022-08-18	41.0
+633.0	Basil - Dry, Rubbed	2021-08-24	92.0	2023-01-09	34.0
+634.0	Cookies Oatmeal Raisin	2022-03-18	56.0	2022-11-13	51.0
+635.0	V8 Splash Strawberry Banana	2022-05-07	66.0	2022-11-25	86.0
+636.0	Soup - Cream Of Broccoli	2021-08-14	6.0	2023-04-25	11.0
+637.0	Tomatoes - Plum, Canned	2022-02-07	45.0	2023-02-21	33.0
+638.0	Oil - Truffle, White	2022-04-09	74.0	2022-10-05	66.0
+639.0	Appetizer - Southwestern	2021-11-16	91.0	2023-02-13	100.0
+640.0	Jerusalem Artichoke	2021-11-10	40.0	2022-11-24	10.0
+641.0	Eel - Smoked	2021-09-11	65.0	2022-09-25	77.0
+642.0	Beets - Pickled	2021-12-11	25.0	2022-08-20	62.0
+643.0	Beef - Ground Medium	2022-02-01	32.0	2022-09-08	40.0
+644.0	Beef - Ground, Extra Lean, Fresh	2022-06-13	86.0	2022-09-25	33.0
+645.0	Pears - Bosc	2021-12-26	86.0	2022-12-25	12.0
+646.0	Spaghetti Squash	2021-11-18	50.0	2023-03-01	52.0
+647.0	Muffin Mix - Corn Harvest	2022-06-02	18.0	2022-11-26	49.0
+648.0	Beef - Prime Rib Aaa	2021-12-07	86.0	2023-01-03	43.0
+649.0	Potatoes - Fingerling 4 Oz	2022-02-12	72.0	2023-02-20	68.0
+650.0	Cardamon Ground	2021-11-18	8.0	2023-05-25	73.0
+651.0	Beef - Cooked, Corned	2022-04-13	70.0	2022-08-27	79.0
+652.0	Squid Ink	2022-05-27	27.0	2022-07-23	44.0
+653.0	Grenadine	2021-12-19	100.0	2022-07-27	96.0
+654.0	Bar Mix - Pina Colada, 355 Ml	2021-06-30	24.0	2023-06-16	19.0
+655.0	Soup - Chicken And Wild Rice	2021-09-01	60.0	2023-04-27	77.0
+656.0	Nantucket - Pomegranate Pear	2021-12-12	24.0	2022-07-09	87.0
+657.0	Wine - Zonnebloem Pinotage	2021-11-12	29.0	2022-08-17	93.0
+658.0	Wine La Vielle Ferme Cote Du	2021-12-18	41.0	2023-05-07	61.0
+659.0	Beef - Tenderloin	2021-10-15	42.0	2022-12-13	44.0
+660.0	Beef - Outside, Round	2022-02-03	4.0	2022-07-11	20.0
+661.0	Bagel - Ched Chs Presliced	2021-08-01	57.0	2023-01-20	17.0
+662.0	Wine - Red, Mouton Cadet	2022-03-31	96.0	2022-09-23	52.0
+663.0	Coffee - French Vanilla Frothy	2022-06-07	79.0	2022-09-29	51.0
+664.0	Ostrich - Prime Cut	2021-06-25	37.0	2023-03-04	5.0
+665.0	Potatoes - Peeled	2021-11-14	36.0	2023-05-04	42.0
+666.0	Cake - Dulce De Leche	2022-03-29	21.0	2023-03-14	41.0
+667.0	Lamb - Pieces, Diced	2022-04-09	89.0	2022-08-05	30.0
+668.0	Allspice - Jamaican	2021-10-24	81.0	2022-07-18	16.0
+669.0	Kirsch - Schloss	2021-09-05	89.0	2023-02-24	23.0
+670.0	Ice Cream Bar - Drumstick	2021-12-30	91.0	2022-08-14	81.0
+671.0	Tomato Puree	2022-02-15	30.0	2022-08-20	100.0
+672.0	Beef - Chuck, Boneless	2022-03-31	86.0	2022-09-13	79.0
+673.0	Pastry - Chocolate Chip Muffin	2021-12-13	8.0	2023-02-11	93.0
+674.0	Chicken - Leg, Fresh	2022-02-24	25.0	2022-11-02	89.0
+675.0	Cheese - Grana Padano	2021-07-01	40.0	2022-08-11	89.0
+676.0	Pasta - Penne, Rigate, Dry	2022-04-24	95.0	2023-02-27	61.0
+677.0	Spice - Paprika	2021-09-01	10.0	2023-03-05	99.0
+678.0	Tandoori Curry Paste	2022-01-12	85.0	2022-08-20	84.0
+679.0	Muffin Mix - Carrot	2022-02-18	66.0	2022-07-30	93.0
+680.0	Daikon Radish	2021-10-25	79.0	2022-09-24	53.0
+681.0	Dome Lid Clear P92008h	2022-01-27	32.0	2023-03-10	81.0
+682.0	Wine - Chablis J Moreau Et Fils	2021-07-13	10.0	2023-05-07	77.0
+683.0	Dikon	2022-05-10	85.0	2023-04-18	46.0
+684.0	Shrimp - Black Tiger 13/15	2022-06-12	19.0	2023-03-10	43.0
+685.0	Calaloo	2021-07-04	40.0	2022-10-05	75.0
+686.0	Squid - Tubes / Tenticles 10/20	2021-09-03	56.0	2023-01-04	6.0
+687.0	Chips - Assorted	2022-06-20	74.0	2022-11-26	3.0
+688.0	Bread - Multigrain, Loaf	2021-08-20	91.0	2022-11-22	10.0
+689.0	Fork - Plastic	2022-03-05	32.0	2023-04-26	9.0
+690.0	Dikon	2021-12-14	76.0	2023-02-24	56.0
+691.0	Coconut Milk - Unsweetened	2021-10-23	59.0	2023-03-02	92.0
+692.0	Cookie Dough - Double	2022-02-16	80.0	2022-08-03	30.0
+693.0	Veal - Heart	2021-10-11	44.0	2022-11-15	82.0
+694.0	Pomegranates	2022-06-23	74.0	2022-12-24	67.0
+695.0	Squash - Sunburst	2022-04-16	11.0	2023-03-29	2.0
+696.0	Pail With Metal Handle 16l White	2021-09-02	42.0	2023-04-11	64.0
+697.0	Capers - Pickled	2022-02-05	76.0	2023-05-24	32.0
+698.0	Tomatoes - Grape	2021-09-23	5.0	2022-08-29	58.0
+699.0	Bag Clear 10 Lb	2022-01-13	78.0	2022-06-28	34.0
+700.0	Tea - Lemon Green Tea	2022-05-28	76.0	2023-03-12	96.0
+701.0	Cheese - Brie, Triple Creme	2021-12-15	69.0	2023-01-17	18.0
+702.0	Olive - Spread Tapenade	2022-01-06	96.0	2022-10-19	99.0
+703.0	Beer - Pilsner Urquell	2021-11-23	21.0	2023-01-10	99.0
+704.0	Wine - Alsace Riesling Reserve	2021-12-09	78.0	2023-03-04	75.0
+705.0	Knife Plastic - White	2022-04-03	67.0	2023-01-30	91.0
+706.0	Beef - Ground Medium	2022-05-08	4.0	2023-02-16	58.0
+707.0	Chambord Royal	2021-07-18	86.0	2022-12-23	69.0
+708.0	Cookies - Amaretto	2021-12-17	64.0	2022-09-01	8.0
+709.0	Potatoes - Parissienne	2022-02-21	76.0	2022-08-12	80.0
+710.0	Salami - Genova	2021-10-20	57.0	2022-11-04	31.0
+711.0	Wine - Red, Concha Y Toro	2022-02-18	68.0	2023-03-23	87.0
+712.0	Sugar - Splenda Sweetener	2021-08-11	5.0	2022-09-23	8.0
+713.0	Icecream - Dibs	2022-01-14	7.0	2022-11-03	7.0
+714.0	Wine - Conde De Valdemar	2021-08-12	77.0	2023-06-20	90.0
+715.0	Chicken Breast Halal	2022-03-16	16.0	2023-06-03	68.0
+716.0	Pasta - Linguini, Dry	2021-08-14	1.0	2023-02-20	57.0
+717.0	Wine - Spumante Bambino White	2022-04-14	53.0	2023-05-04	96.0
+718.0	Blueberries - Frozen	2021-12-16	93.0	2023-02-25	27.0
+719.0	Ice Cream Bar - Oreo Cone	2022-02-12	96.0	2023-04-30	18.0
+720.0	Extract Vanilla Pure	2022-04-30	16.0	2023-05-23	4.0
+721.0	Dill Weed - Dry	2021-07-21	38.0	2023-04-28	84.0
+722.0	Sambuca - Ramazzotti	2022-02-16	56.0	2022-10-19	76.0
+723.0	Napkin Colour	2022-04-26	4.0	2022-07-11	53.0
+724.0	Otomegusa Dashi Konbu	2021-08-14	95.0	2023-03-09	72.0
+725.0	Rabbit - Saddles	2021-09-23	14.0	2022-12-16	5.0
+726.0	Calypso - Black Cherry Lemonade	2022-02-11	95.0	2022-11-10	22.0
+727.0	Syrup - Monin - Blue Curacao	2021-06-29	50.0	2022-10-08	61.0
+728.0	Crush - Orange, 355ml	2022-05-28	87.0	2022-07-27	64.0
+729.0	Pork - Sausage, Medium	2022-03-16	88.0	2022-07-24	16.0
+730.0	Lemon Grass	2022-02-03	66.0	2023-04-04	8.0
+731.0	Cookie - Oatmeal	2022-03-28	93.0	2022-10-21	44.0
+732.0	Veal - Leg	2021-11-09	5.0	2022-12-25	77.0
+733.0	Cheese - Stilton	2022-04-05	5.0	2023-06-08	70.0
+734.0	Onions - Pearl	2022-01-16	26.0	2022-12-23	90.0
+735.0	Longos - Burritos	2022-05-07	28.0	2022-07-10	30.0
+736.0	Appetizer - Seafood Assortment	2022-03-18	83.0	2023-02-26	73.0
+737.0	Wine - Carmenere Casillero Del	2021-07-23	35.0	2022-11-12	66.0
+738.0	Salt - Kosher	2021-11-05	87.0	2023-01-24	11.0
+739.0	Truffle Paste	2022-03-23	35.0	2022-12-27	68.0
+740.0	Wine La Vielle Ferme Cote Du	2021-08-20	97.0	2023-06-15	78.0
+741.0	Chicken - White Meat, No Tender	2022-05-25	1.0	2022-07-02	20.0
+742.0	Wine - White, Chardonnay	2022-01-13	71.0	2022-09-29	35.0
+743.0	Wine - Mondavi Coastal Private	2021-07-12	95.0	2023-04-10	83.0
+744.0	Beef - Diced	2021-08-13	66.0	2022-12-21	16.0
+745.0	Beer - Heinekin	2021-10-21	48.0	2022-10-16	14.0
+746.0	Hummus - Spread	2021-07-21	59.0	2023-05-16	26.0
+747.0	Tomatoes - Diced, Canned	2021-08-10	39.0	2022-11-19	54.0
+748.0	Red Snapper - Fillet, Skin On	2021-07-23	6.0	2023-02-26	84.0
+749.0	Bread - Multigrain Oval	2021-11-02	70.0	2023-02-27	4.0
+750.0	Dried Cherries	2021-11-22	35.0	2023-03-06	55.0
+751.0	Chicken - Livers	2021-09-08	80.0	2023-06-09	30.0
+752.0	Coconut - Shredded, Sweet	2022-03-23	78.0	2023-06-03	17.0
+753.0	Star Fruit	2021-08-26	53.0	2023-01-06	90.0
+754.0	Tomato - Plum With Basil	2022-05-10	47.0	2023-04-24	82.0
+755.0	Wine - Ice Wine	2021-07-14	36.0	2022-10-14	47.0
+756.0	Silicone Paper 16.5x24	2022-01-26	25.0	2023-03-03	17.0
+757.0	Pastrami	2021-10-09	40.0	2023-03-16	35.0
+758.0	Dish Towel	2022-01-25	41.0	2022-11-11	50.0
+759.0	Puff Pastry - Slab	2021-10-17	60.0	2022-09-05	42.0
+760.0	Island Oasis - Mango Daiquiri	2022-02-07	11.0	2023-02-14	5.0
+761.0	Chicken - Whole Roasting	2022-03-27	79.0	2022-08-05	41.0
+762.0	Macaroons - Homestyle Two Bit	2022-03-01	13.0	2023-04-25	17.0
+763.0	Tea - Herbal I Love Lemon	2021-12-02	95.0	2023-01-05	55.0
+764.0	Red Currant Jelly	2021-07-15	40.0	2023-03-09	90.0
+765.0	Pasta - Cheese / Spinach Bauletti	2021-08-27	11.0	2023-06-06	14.0
+766.0	Wine - White Cab Sauv.on	2022-02-16	70.0	2022-07-16	82.0
+767.0	Zucchini - Yellow	2021-10-06	13.0	2023-01-01	63.0
+768.0	Veal - Eye Of Round	2021-12-22	17.0	2022-08-02	45.0
+769.0	Onions - Spanish	2021-09-14	54.0	2022-10-19	64.0
+770.0	Sping Loaded Cup Dispenser	2022-04-26	86.0	2023-05-03	22.0
+771.0	Tortillas - Flour, 10	2021-09-10	56.0	2023-02-12	70.0
+772.0	Wine - Zonnebloem Pinotage	2022-02-28	65.0	2023-06-01	95.0
+773.0	Beef - Inside Round	2021-12-25	28.0	2022-08-01	80.0
+774.0	Juice - Grape, White	2022-01-18	75.0	2023-04-01	11.0
+775.0	Lamb - Leg, Bone In	2021-09-15	46.0	2023-04-18	28.0
+776.0	Wine - Chardonnay South	2022-03-21	29.0	2022-12-30	56.0
+777.0	Yogurt - Assorted Pack	2021-12-24	27.0	2022-11-24	80.0
+778.0	Halibut - Fletches	2021-11-05	14.0	2022-09-18	18.0
+779.0	Cleaner - Comet	2021-07-09	87.0	2022-10-02	94.0
+780.0	Ham - Black Forest	2022-06-23	91.0	2022-08-06	52.0
+781.0	Nori Sea Weed	2022-04-19	95.0	2023-05-29	60.0
+782.0	Eggplant - Regular	2021-08-12	6.0	2022-12-23	11.0
+783.0	Roe - Lump Fish, Black	2022-04-24	35.0	2023-05-04	33.0
+784.0	Wine - Chateauneuf Du Pape	2022-04-20	46.0	2022-11-15	50.0
+785.0	Oil - Canola	2021-07-03	48.0	2023-06-13	15.0
+786.0	Crackers - Melba Toast	2022-06-16	27.0	2023-05-29	74.0
+787.0	Wine - Red, Colio Cabernet	2022-05-12	58.0	2022-07-11	35.0
+788.0	Puff Pastry - Slab	2022-05-21	2.0	2022-08-15	25.0
+789.0	Squid Ink	2022-02-28	46.0	2023-02-26	56.0
+790.0	Raspberries - Fresh	2022-03-01	26.0	2022-11-02	67.0
+791.0	Energy Drink	2021-10-07	1.0	2022-07-07	77.0
+792.0	Ecolab Crystal Fusion	2022-04-25	48.0	2023-03-08	7.0
+793.0	Pineapple - Regular	2022-06-11	76.0	2023-05-14	15.0
+794.0	Beef - Bresaola	2022-01-06	52.0	2023-01-15	18.0
+795.0	Lamb - Loin, Trimmed, Boneless	2021-07-31	71.0	2022-06-29	22.0
+796.0	Tomatillo	2021-07-15	97.0	2023-06-10	63.0
+797.0	Sambuca - Ramazzotti	2021-07-23	85.0	2022-12-24	36.0
+798.0	Mountain Dew	2021-09-10	48.0	2023-03-13	44.0
+799.0	Pastry - French Mini Assorted	2022-04-07	82.0	2022-10-14	81.0
+800.0	Triple Sec - Mcguinness	2021-06-28	95.0	2022-12-24	94.0
+801.0	Soup - Campbells, Classic Chix	2021-11-05	19.0	2023-03-27	55.0
+802.0	Bread - Roll, Whole Wheat	2022-06-17	32.0	2023-05-13	18.0
+803.0	Veal - Ground	2022-05-08	48.0	2022-08-19	26.0
+804.0	Tomatoes - Cherry	2021-12-08	13.0	2022-10-23	85.0
+805.0	Wine - Red, Marechal Foch	2022-05-14	62.0	2023-04-04	53.0
+806.0	Cinnamon - Ground	2021-07-23	44.0	2022-10-03	30.0
+807.0	Pasta - Tortellini, Fresh	2021-07-02	5.0	2022-11-26	99.0
+808.0	Hummus - Spread	2021-09-29	55.0	2023-03-28	58.0
+809.0	Magnotta Bel Paese Red	2021-07-25	25.0	2022-08-18	37.0
+810.0	Cocoa Feuilletine	2021-09-27	57.0	2022-10-28	11.0
+811.0	Table Cloth 91x91 Colour	2022-03-23	98.0	2023-06-22	95.0
+812.0	Container - Clear 32 Oz	2022-02-08	43.0	2022-07-02	35.0
+813.0	Chevril	2022-05-30	4.0	2023-05-07	26.0
+814.0	Wine - Ruffino Chianti	2022-05-20	56.0	2023-02-12	71.0
+815.0	Tomatoes	2022-04-26	63.0	2022-11-01	19.0
+816.0	Appetizer - Chicken Satay	2021-10-06	96.0	2022-08-02	41.0
+817.0	Table Cloth 54x72 White	2022-02-17	24.0	2023-05-27	40.0
+818.0	Pear - Packum	2021-12-24	68.0	2023-02-28	28.0
+819.0	Bread Cranberry Foccacia	2021-10-15	9.0	2023-05-17	92.0
+820.0	Flour - All Purpose	2022-03-22	21.0	2022-12-07	21.0
+821.0	Lamb - Ground	2022-03-09	57.0	2023-02-16	52.0
+822.0	Cheese - Cheddar, Medium	2021-08-11	66.0	2022-10-13	25.0
+823.0	Beef - Rib Eye Aaa	2021-07-16	18.0	2022-10-06	75.0
+824.0	Dill Weed - Fresh	2021-07-22	35.0	2023-05-29	84.0
+825.0	Bread Cranberry Foccacia	2022-01-13	61.0	2022-08-11	97.0
+826.0	Lamb Rack Frenched Australian	2022-04-02	96.0	2022-12-06	60.0
+827.0	Filo Dough	2022-01-20	34.0	2022-08-11	3.0
+828.0	Lentils - Red, Dry	2021-06-26	7.0	2023-02-21	87.0
+829.0	Goulash Seasoning	2021-11-17	69.0	2022-08-14	36.0
+830.0	Carbonated Water - Wildberry	2021-07-19	62.0	2023-02-05	77.0
+831.0	Wine - Red, Marechal Foch	2021-09-10	74.0	2023-06-10	79.0
+832.0	Cabbage - Green	2021-12-12	95.0	2023-02-23	59.0
+833.0	Maintenance Removal Charge	2022-06-08	98.0	2022-09-22	5.0
+834.0	Tray - Foam, Square 4 - S	2022-05-12	66.0	2023-05-21	12.0
+835.0	Truffle - Whole Black Peeled	2021-12-22	63.0	2023-02-10	34.0
+836.0	Rice - 7 Grain Blend	2022-03-11	65.0	2022-10-09	89.0
+837.0	Sugar - Invert	2022-04-21	19.0	2022-09-08	45.0
+838.0	Saskatoon Berries - Frozen	2021-08-27	55.0	2023-04-30	51.0
+839.0	Tart Shells - Savory, 4	2022-02-04	39.0	2023-01-21	66.0
+840.0	Pineapple - Canned, Rings	2021-12-09	73.0	2022-10-01	61.0
+841.0	Lettuce - Lambs Mash	2022-03-02	82.0	2023-05-14	20.0
+842.0	Flavouring Vanilla Artificial	2022-05-23	93.0	2022-10-13	77.0
+843.0	Soup - Campbells Beef Stew	2022-03-07	86.0	2023-03-21	33.0
+844.0	Napkin White - Starched	2022-04-26	74.0	2023-01-31	76.0
+845.0	Wine - Pinot Noir Pond Haddock	2022-02-16	74.0	2023-02-09	12.0
+846.0	Cookies - Englishbay Oatmeal	2022-06-03	87.0	2023-03-30	98.0
+847.0	Garbage Bag - Clear	2021-07-02	33.0	2022-07-04	60.0
+848.0	Wine - Ej Gallo Sierra Valley	2021-08-05	58.0	2022-10-30	79.0
+849.0	Water - San Pellegrino	2022-06-19	29.0	2022-08-08	95.0
+850.0	Apple - Royal Gala	2022-01-31	36.0	2022-06-30	69.0
+851.0	Appetizer - Cheese Bites	2022-05-12	1.0	2022-11-03	20.0
+852.0	Magnotta - Bel Paese White	2021-08-16	20.0	2023-03-23	67.0
+853.0	Pomegranates	2022-06-17	20.0	2022-12-13	36.0
+854.0	Goat - Whole Cut	2021-08-16	18.0	2023-05-24	79.0
+855.0	Cake Circle, Paprus	2022-02-05	43.0	2023-04-22	71.0
+856.0	General Purpose Trigger	2021-09-27	98.0	2022-09-23	72.0
+857.0	Jam - Marmalade, Orange	2021-10-30	69.0	2022-07-01	23.0
+858.0	Duck - Breast	2022-04-17	50.0	2023-02-18	78.0
+859.0	Olives - Kalamata	2022-05-12	60.0	2023-02-25	39.0
+860.0	Dried Cherries	2022-06-06	36.0	2022-12-05	65.0
+861.0	Beer - Creemore	2021-10-01	79.0	2023-02-17	23.0
+862.0	Country Roll	2022-05-28	73.0	2023-03-19	4.0
+863.0	Veal - Round, Eye Of	2021-08-25	41.0	2023-04-21	82.0
+864.0	Muffin Hinge - 211n	2022-05-10	3.0	2023-01-25	62.0
+865.0	Pasta - Gnocchi, Potato	2021-10-16	56.0	2023-01-20	67.0
+866.0	Yogurt - Plain	2022-02-17	93.0	2023-03-29	11.0
+867.0	Salmon - Whole, 4 - 6 Pounds	2022-01-05	60.0	2023-03-20	16.0
+868.0	Extract Vanilla Pure	2021-07-18	25.0	2022-10-23	2.0
+869.0	The Pop Shoppe - Cream Soda	2022-03-26	98.0	2023-04-17	97.0
+870.0	Cheese - Mozzarella	2021-12-13	6.0	2022-11-21	5.0
+871.0	Oven Mitt - 13 Inch	2022-02-02	75.0	2023-02-05	74.0
+872.0	Thyme - Fresh	2021-12-25	31.0	2023-02-08	57.0
+873.0	Cabbage Roll	2021-11-19	60.0	2022-10-06	83.0
+874.0	Cake - French Pear Tart	2022-06-14	65.0	2023-02-12	85.0
+875.0	Tomatillo	2021-09-18	47.0	2023-03-05	58.0
+876.0	Stock - Beef, Brown	2022-05-03	40.0	2022-09-20	35.0
+877.0	Coffee - Almond Amaretto	2022-04-02	73.0	2022-11-22	7.0
+878.0	Nantucket - Pomegranate Pear	2022-03-15	15.0	2023-05-10	6.0
+879.0	Venison - Striploin	2021-10-24	7.0	2023-04-04	69.0
+880.0	Containter - 3oz Microwave Rect.	2021-10-11	56.0	2022-07-09	66.0
+881.0	Cream - 18%	2022-06-05	58.0	2022-08-04	98.0
+882.0	Scotch - Queen Anne	2022-04-15	36.0	2023-05-19	72.0
+883.0	Mustard Prepared	2021-10-13	91.0	2022-11-08	50.0
+884.0	Sauce - Soya, Dark	2021-12-15	58.0	2022-06-27	64.0
+885.0	Wine - Casillero Deldiablo	2022-01-03	64.0	2023-03-31	90.0
+886.0	Limes	2022-01-03	65.0	2022-10-07	10.0
+887.0	Beef - Diced	2022-03-22	26.0	2023-02-28	62.0
+888.0	Salmon - Atlantic, Skin On	2022-02-16	70.0	2022-10-17	44.0
+889.0	Vinegar - Tarragon	2021-07-15	8.0	2023-05-06	6.0
+890.0	Pork - Bacon, Double Smoked	2022-05-12	54.0	2022-12-15	37.0
+891.0	Pepper - Black, Crushed	2022-03-16	15.0	2023-06-15	46.0
+892.0	Cheese - Swiss Sliced	2022-05-01	56.0	2023-01-15	81.0
+893.0	Pastry - Banana Tea Loaf	2022-06-01	8.0	2023-04-19	58.0
+894.0	Radish - Pickled	2022-06-20	26.0	2022-08-07	37.0
+895.0	Raspberries - Frozen	2022-05-03	23.0	2022-12-06	20.0
+896.0	Sprouts - Brussel	2021-12-21	39.0	2022-12-24	13.0
+897.0	Wine - Ruffino Chianti	2021-12-14	79.0	2022-11-25	84.0
+898.0	Cream - 10%	2021-06-26	81.0	2023-03-27	65.0
+899.0	Bread - Sticks, Thin, Plain	2021-11-14	63.0	2023-05-24	45.0
+900.0	Yeast - Fresh, Fleischman	2021-07-19	2.0	2022-07-16	16.0
+901.0	Wine - White, Colubia Cresh	2021-12-27	21.0	2023-04-10	47.0
+902.0	Red Snapper - Fillet, Skin On	2021-12-16	47.0	2023-02-07	19.0
+903.0	Guava	2021-08-11	68.0	2022-07-01	65.0
+904.0	Carbonated Water - Cherry	2021-11-02	59.0	2022-08-22	8.0
+905.0	Nantucket Orange Juice	2021-10-27	63.0	2022-10-08	30.0
+906.0	Cups 10oz Trans	2021-07-04	73.0	2022-09-09	30.0
+907.0	Cheese - Stilton	2022-03-30	32.0	2022-09-19	86.0
+908.0	Beer - Fruli	2022-04-13	62.0	2023-03-30	28.0
+909.0	Compound - Orange	2021-08-16	65.0	2022-08-11	78.0
+910.0	Lettuce - Iceberg	2021-06-29	74.0	2022-08-19	28.0
+911.0	Eggs - Extra Large	2021-12-02	87.0	2022-12-21	79.0
+912.0	Lotus Rootlets - Canned	2022-01-04	8.0	2023-05-16	86.0
+913.0	Apple - Delicious, Golden	2021-11-02	39.0	2022-09-01	58.0
+914.0	Pork - Belly Fresh	2022-05-03	91.0	2022-10-17	29.0
+915.0	Wine - Sauvignon Blanc Oyster	2022-02-17	95.0	2022-12-08	60.0
+916.0	Cocoa Powder - Dutched	2022-06-20	41.0	2022-10-02	71.0
+917.0	Muffin Mix - Oatmeal	2021-10-12	99.0	2023-02-13	51.0
+918.0	Chicken - Diced, Cooked	2022-05-05	38.0	2023-03-15	32.0
+919.0	Olives - Green, Pitted	2022-01-13	73.0	2023-01-24	54.0
+920.0	Sugar - Monocystal / Rock	2022-02-08	93.0	2023-03-20	77.0
+921.0	Cornstarch	2021-12-21	85.0	2023-05-19	84.0
+922.0	Bouq All Italian - Primerba	2021-10-16	83.0	2022-09-19	97.0
+923.0	Sugar - Invert	2022-01-27	45.0	2022-11-13	51.0
+924.0	Cornflakes	2021-08-12	96.0	2022-07-13	41.0
+925.0	Longos - Chicken Cordon Bleu	2021-11-27	87.0	2023-01-28	21.0
+926.0	Cheese - Asiago	2022-03-18	33.0	2023-04-19	93.0
+927.0	Soup Knorr Chili With Beans	2022-04-28	75.0	2022-09-28	67.0
+928.0	Nut - Pecan, Halves	2022-03-15	62.0	2022-07-22	80.0
+929.0	Cherries - Maraschino,jar	2022-04-02	82.0	2022-07-19	44.0
+930.0	Chocolate - Compound Coating	2022-04-29	16.0	2022-10-18	91.0
+931.0	Steam Pan - Half Size Deep	2022-05-24	34.0	2022-09-15	30.0
+932.0	Beef - Tongue, Fresh	2022-05-13	39.0	2023-06-05	3.0
+933.0	Cheese - Woolwich Goat, Log	2022-01-04	2.0	2022-12-23	90.0
+934.0	Pork Ham Prager	2021-09-13	55.0	2023-03-25	40.0
+935.0	Chilli Paste, Sambal Oelek	2022-01-09	79.0	2022-08-06	53.0
+936.0	Apple - Delicious, Golden	2021-12-13	41.0	2022-11-11	67.0
+937.0	Veal - Provimi Inside	2021-07-19	93.0	2023-01-26	67.0
+938.0	Sesame Seed Black	2021-12-31	23.0	2022-07-05	64.0
+939.0	Lid - High Heat, Super Clear	2022-03-29	63.0	2023-06-22	55.0
+940.0	Food Colouring - Green	2021-08-24	4.0	2023-01-05	34.0
+941.0	Chicken - Leg / Back Attach	2021-12-15	8.0	2023-06-01	62.0
+942.0	Bread - Rolls, Corn	2022-06-17	96.0	2023-01-27	18.0
+943.0	Oil - Macadamia	2021-09-19	83.0	2023-05-30	58.0
+944.0	Nut - Almond, Blanched, Ground	2022-02-03	50.0	2023-06-02	60.0
+945.0	Garlic Powder	2022-06-16	43.0	2022-07-13	30.0
+946.0	Sour Puss Sour Apple	2021-06-25	78.0	2023-01-23	3.0
+947.0	Wine - Guy Sage Touraine	2021-09-07	83.0	2023-05-14	37.0
+948.0	Beef - Roasted, Cooked	2022-04-17	83.0	2022-09-07	11.0
+949.0	Schnappes Peppermint - Walker	2021-09-18	54.0	2023-03-24	51.0
+950.0	Lamb Leg - Bone - In Nz	2021-09-15	37.0	2023-01-24	29.0
+951.0	Sachet	2021-11-04	100.0	2022-11-30	5.0
+952.0	Calypso - Pineapple Passion	2021-08-12	76.0	2023-03-04	83.0
+953.0	Thyme - Lemon, Fresh	2022-06-11	23.0	2022-09-01	73.0
+954.0	Pepper - Green Thai	2021-11-28	20.0	2023-01-10	96.0
+955.0	Scallops - Live In Shell	2022-04-30	10.0	2022-10-28	75.0
+956.0	Bagel - Everything Presliced	2022-06-18	49.0	2022-10-26	31.0
+957.0	Bread - Pullman, Sliced	2021-12-20	21.0	2022-12-29	3.0
+958.0	Lentils - Green Le Puy	2021-12-19	69.0	2023-01-17	43.0
+959.0	Bread - Wheat Baguette	2021-12-19	39.0	2023-05-14	21.0
+960.0	Truffle Paste	2021-09-16	68.0	2022-07-17	18.0
+961.0	Sauce - Caesar Dressing	2021-10-27	43.0	2022-09-03	17.0
+962.0	Duck - Whole	2021-12-22	100.0	2023-02-11	77.0
+963.0	Bread - Hamburger Buns	2022-03-15	20.0	2023-02-21	73.0
+964.0	Wine - Magnotta - Pinot Gris Sr	2021-07-16	14.0	2022-08-27	89.0
+965.0	Danishes - Mini Cheese	2021-12-26	63.0	2022-08-09	57.0
+966.0	Trueblue - Blueberry 12x473ml	2021-09-15	32.0	2023-02-22	17.0
+967.0	The Pop Shoppe - Root Beer	2022-04-06	38.0	2022-09-09	52.0
+968.0	Mcgillicuddy Vanilla Schnap	2021-07-09	21.0	2023-02-18	10.0
+969.0	Skirt - 29 Foot	2022-03-10	16.0	2023-03-14	73.0
+970.0	Chicken - Tenderloin	2022-01-24	53.0	2022-11-15	28.0
+971.0	Nutmeg - Ground	2021-07-17	6.0	2022-09-15	69.0
+972.0	Sage - Ground	2021-08-03	91.0	2022-07-26	59.0
+973.0	Lettuce - Romaine	2021-11-23	69.0	2022-09-23	23.0
+974.0	Cloves - Ground	2022-06-07	31.0	2022-09-22	77.0
+975.0	Vaccum Bag - 14x20	2021-09-05	42.0	2022-11-12	40.0
+976.0	Soup - Campbells, Chix Gumbo	2021-12-14	40.0	2022-09-23	80.0
+977.0	Bread Country Roll	2022-02-05	28.0	2023-05-04	10.0
+978.0	Salmon - Atlantic, Skin On	2022-04-30	12.0	2022-11-10	81.0
+979.0	Syrup - Monin - Passion Fruit	2022-03-01	18.0	2022-12-10	86.0
+980.0	Wine - Charddonnay Errazuriz	2021-11-06	58.0	2022-08-13	17.0
+981.0	Beef - Bones, Marrow	2022-01-30	82.0	2023-02-16	85.0
+982.0	Cake - Mini Cheesecake	2021-06-26	76.0	2022-06-26	83.0
+983.0	Beef - Montreal Smoked Brisket	2021-08-29	81.0	2022-09-02	42.0
+984.0	Island Oasis - Peach Daiquiri	2021-07-16	16.0	2022-12-20	24.0
+985.0	Crab - Soft Shell	2022-04-25	53.0	2023-04-18	61.0
+986.0	Pastry - Baked Cinnamon Stick	2021-07-14	66.0	2022-11-02	43.0
+987.0	Water, Tap	2021-08-13	29.0	2023-04-12	37.0
+988.0	Island Oasis - Peach Daiquiri	2022-06-21	35.0	2023-02-05	3.0
+989.0	Hinge W Undercut	2021-08-28	20.0	2022-06-29	13.0
+990.0	Cheese - Boursin, Garlic / Herbs	2021-06-27	26.0	2023-06-13	45.0
+991.0	Bacardi Breezer - Strawberry	2022-02-11	77.0	2023-01-22	36.0
+992.0	Muffin - Carrot Individual Wrap	2022-04-25	90.0	2022-11-22	15.0
+993.0	Basil - Seedlings Cookstown	2021-10-28	25.0	2023-05-02	58.0
+994.0	Cut Wakame - Hanawakaba	2021-11-22	52.0	2022-11-25	79.0
+995.0	Pasta - Orzo, Dry	2022-01-09	42.0	2023-01-09	36.0
+996.0	Wine - Tio Pepe Sherry Fino	2021-07-14	13.0	2022-11-05	2.0
+997.0	Arctic Char - Fillets	2022-03-01	3.0	2022-06-24	34.0
+998.0	Chicken - Whole	2022-01-18	27.0	2022-11-19	61.0
+999.0	Ecolab - Solid Fusion	2022-06-02	72.0	2023-05-30	41.0
+1000.0	Bagelers	2021-09-05	1.0	2023-01-20	47.0
+1001.0	Soy Milk - Oatly	2022-06-24	1.2	2022-07-14 00:00:00	50.0
+					45.0
+					45.0
