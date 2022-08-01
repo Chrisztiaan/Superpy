@@ -1,10 +1,10 @@
+
 # Imports
 import argparse
 import csv
 import datetime as dt
 import sys
 import pandas as pd
-# function.py
 from functions import *
 
 
@@ -19,11 +19,11 @@ __human_name__ = "superpy"
 
 class Superpy (object):
 
-    # Define general command. This code is used for all subcommands.
+# Define general command. This code is used for all subcommands.
 
     def __init__(self):
         parser = argparse.ArgumentParser(
-            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command -h for help.\n\nUse the UP arrow to copy last command.')
+            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command -h for help.\n\nUse the UP arrow to copy last command.\n')
         parser.add_argument(
             'command', help='Use: buy, sell, delete, inventory, revenue, advance')
         args = parser.parse_args(sys.argv[1:2])
@@ -34,14 +34,14 @@ class Superpy (object):
 
         getattr(self, args.command)()
 
-# The buy subcommand. Used for buying products.
+# The buy subcommand. Used for buying products..\.
 
     def buy(self):
         parser = argparse.ArgumentParser(
-            usage='\n\nUse this command to buy a product and add it to the inventory.\nYou have to fill in all the arguments mentioned below.')
+            usage='\n\nUse this command to buy a product and add it to the inventory.\nYou have to fill in all the arguments mentioned below.\n')
         parser.add_argument('id', type=int, help='Fill in ID')
         parser.add_argument('product_name', type=str,
-                            help='Fill in product name')
+                            help='Fill in product name, if name contains spaces please fill in between parentheses.')
         parser.add_argument('price', type=float, help='Fill in price')
         parser.add_argument('expiration_date', type=lambda s: dt.datetime.strptime(
             s, '%Y-%m-%d'), help='Fill in the expiration date as yyyy-mm-dd')
@@ -55,7 +55,7 @@ class Superpy (object):
 
     def sell(self):
         parser = argparse.ArgumentParser(
-            usage='\n\nUse this command to sell a product and remove it from the inventory.\nYou have to fill in all the arguments mentioned below.')
+            usage='\n\nUse this command to sell a product and remove it from the inventory.\nYou have to fill in all the arguments mentioned below.\n')
         parser.add_argument('id', type=int, help='Fill in the ID')
         parser.add_argument('price', type=float, help='Fill in the price')
         parser.add_argument('amount', type=int, help='Fill in the amount')
@@ -67,7 +67,7 @@ class Superpy (object):
 
     def delete(self):
         parser = argparse.ArgumentParser(
-            usage='\n\nUse this command to delete a product.\nThe amount you fill in will be removed from the inventory.\nUse this for damaged goods or other exceptions.')
+            usage='\n\nUse this command to delete a product.\nThe amount you fill in will be removed from the inventory.\nUse this for damaged goods or other exceptions.\n')
         parser.add_argument('id', type=int, help='Fill in the ID')
         parser.add_argument('amount', type=int, help='Fill in the amount')
         args = parser.parse_args(sys.argv[2:])
@@ -78,37 +78,47 @@ class Superpy (object):
 
     def inventory(self):
         parser = argparse.ArgumentParser(
-            usage='\n\nUse this command to view the inventory.\nCan be filtered by product or date.\nTo filter use the argument followed by the product/date or both.')
+            usage='\n\nUse this command to view the inventory.\nCan be filtered by product or date.\nTo filter use the argument followed by the product/date or both.\n')
         parser.add_argument('--product', help='Add a product to filter')
         parser.add_argument('--date', help='Add a date to filter the buy date')
         args = parser.parse_args(sys.argv[2:])
         print(display_stock(args.product, args.date))
 
+# The sold command. Used for displaying sold stock.
+
+    def sold(self):
+        parser = argparse.ArgumentParser(
+            usage='\n\nUse this command to view the sold stock.\nWill display today by default but can be filtered by date.\nTo filter use the argument followed by the date.\n')
+        parser.add_argument('--date', help='Add a date to filter')
+        args = parser.parse_args(sys.argv[2:])
+        print(sold_stock(args.date))
+
 # The revenue command. Used to calculate the revenue of a certain day.
 
     def revenue(self):
         parser = argparse.ArgumentParser(
-            usage='\n\nCalculate revenue, today is standard but you can filter by date.')
-        parser.add_argument('--date', help='Add a date to filter by date')
+            usage='\n\nCalculate revenue, today is standard but you can filter by date.\n')
+        parser.add_argument('--date', help='Add a date to filter by date as yyyy-mm-dd.')
         args = parser.parse_args(sys.argv[2:])
-        print(revenue(args.date))
+        string = f'Revenue is: {revenue(args.date)}'
+        print(string)
 
 
 # The profit command. Used to calculate the profit of a certain day.
 
     def profit(self):
         parser = argparse.ArgumentParser(
-            usage='\n\nCalculate profit, today is standard but you can filter by date.')
-        parser.add_argument('--date', help='Add a date to filter by date')
+            usage='\n\nCalculate profit, today is standard but you can filter by date.\n')
+        parser.add_argument('--date', help='Add a date to filter by date as yyyy-mm-dd.')
         args = parser.parse_args(sys.argv[2:])
-        print(revenue(args.date))
-
+        string = f'Profit is: {profit(args.date)}'
+        print(string)
 
 # The advance command. Used to advance time by a number of days.
 
     def advance(self):
         parser = argparse.ArgumentParser(
-            usage='\n\n Use this command to advance time by a number of days.')
+            usage='\n\nUse this command to travel through time by a number of days.\n')
         parser.add_argument(
             'days', help='Fill in number of days you want to advance time')
         args = parser.parse_args(sys.argv[2:])
@@ -117,7 +127,6 @@ class Superpy (object):
 
 def main():
     Superpy()
-
 
 if __name__ == "__main__":
     main()
