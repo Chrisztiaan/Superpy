@@ -49,7 +49,6 @@ def display_stock(product_name, date):
         df = df[df.buy_date.eq(date)]
     return df
 
-
 # Deleting A Product
 
 def delete_stock(id, amount):
