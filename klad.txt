@@ -1,7 +1,16 @@
+buy
+sell
+delete
+INVENTORY
+sold
+revenue
+profit
+advance
 
-als amount gelijk is: delete stock
-als amount minder is: stock_amount - amount
-anders: not enough on stock
+Todo:
+    Fix amount change in buy and sell
+
+
 
 
 

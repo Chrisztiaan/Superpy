@@ -12,7 +12,7 @@ from functions import *
 __winc_id__ = "a2bc36ea784242e4989deb157d527ba0"
 __human_name__ = "superpy"
 
-# Your code below this line.
+# Your code below this line
 
 # Superpy class
 
@@ -23,9 +23,9 @@ class Superpy (object):
 
     def __init__(self):
         parser = argparse.ArgumentParser(
-            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command -h for help.\n\nUse the UP arrow to copy last command.\n')
+            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command -h for help.\n\nUse the UP arrow to copy last command.\n\nCommands:\n\n- Buy\n- Sell\n- Delete\n- Inventory\n- Sold\n- Revenue\n- Profit\n- Advance\n')
         parser.add_argument(
-            'command', help='Use: buy, sell, delete, inventory, revenue, advance')
+            'command', help='Use: buy, sell, delete, inventory, revenue, advance after main.py')
         args = parser.parse_args(sys.argv[1:2])
         if not hasattr(self, args.command):
             print('Unrecognized command')

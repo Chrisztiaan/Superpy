@@ -53,7 +53,7 @@ def display_stock(product_name, date):
 
 def delete_stock(id, amount):
     df = pd.read_csv('bought.csv', sep='\t')
-    df.set_index('id')
+    df = df.set_index('id', drop=False, verify_integrity=False)
     stock_amount = get_amount(id)
     if stock_amount == amount:
         df = df.drop(df[df.id == id].index)
@@ -63,7 +63,7 @@ def delete_stock(id, amount):
         return 'Not Enough Stock Available'
     else:
         new_amount = stock_amount - amount
-        df.at['id', 'amount'] = new_amount
+        df.at[id, 'amount'] = new_amount
         df.to_csv('bought.csv', sep='\t', index=False)
         return 'Stock Amount Changed'
 
@@ -73,12 +73,13 @@ def delete_stock(id, amount):
 def add_bought_product(id, product_name, price, expiration_date, amount):
     list = [id, product_name, global_date, price, expiration_date, amount]
     # Check if id is the same, then only change amount
-    if is_id_true(id) == True:
+    if is_id_true(id):
         # Check if name is the same
-        if is_product_name_true == True:
+        if is_product_name_true(id, product_name) == True:
+            new_amount = get_amount(id) + amount
             df = pd.read_csv('bought.csv', sep='\t')
-            df.set_index('id')
-            df.at['id', 'amount'] = amount
+            df = df.set_index('id', drop=False, verify_integrity=False)
+            df.at[id, 'amount'] = new_amount
             df.to_csv('bought.csv', sep='\t', index=False)
             return 'Stock Amount Changed'
         else:
@@ -167,7 +168,6 @@ def get_product_name(id):
 # Is Product Name True | Checks if Product Name is in bought.csv
 
 def is_product_name_true(id, product_name):
-    column = 'product_name'
     df = pd.read_csv('bought.csv', sep='\t')
     df = df[df.id.eq(id)]
     df_product_name = get_product_name(id)
@@ -191,7 +191,7 @@ def is_id_true(id):
 # Get Sell Price | Gets sell_price from sold.csv
 
 def main():
-    print(revenue(None))
+    print(add_bought_product(1000, "Apples - Jonagold", 0.3, "2022-12-31", 94))
 
 if __name__ == "__main__":
     main()
