@@ -1,42 +1,25 @@
-buy
-sell
-delete
-INVENTORY
-sold
-revenue
-profit
-advance
 
 Todo:
-    Fix amount change in buy and sell
+    - Grafieken toevoegen
+    - Flowchart maken
+    - Expired products delete en overview
 
 
+Test:
+    Buy - OK
+    Sell - OK
+    Delete - OK
+    Inventory - Empty DF Issue
+    Sold - OK
+    Revenue - OK
+    Profit - OK
+    Advance - OK
 
-
-
-toevoegen:
-
-check of id al bestaat bij toevoegen van product, als hij bestaat: amount toevoegen, als hij niet bestaat nieuwe regel aanmaken
-
-opties toevoegen aan diplay_stock. datum en product en kijken mogelijkheden voor een bepaalde tijd.
-
-winst, standaard vandaag en optie voor andere data net als inventory
-
-verkoop melding wanneer hij niet in stock is
-
-amount toevoegen aan buy
-
-
-Done:
-    BUY
-    INVENTORY
-
-Not Done:
-    SELL - add amount, amount -1, if amount 0 > delete stock
-    DELETE - add amount, amount = 1 unless defined differently
     
 
 Proberen een product te verwijderen. print(df) product weg, maar niet in file.
 Uiteindelijk .to_csv gebruikt met index False
 
 /t gebruikt voor een mooiere view en eenvoudig print naar console
+
+df.at moet met df =  ervoor. Hierdoor amount op nieuwe regel ipv vervanging van cel

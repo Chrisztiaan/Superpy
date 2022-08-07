@@ -16,6 +16,17 @@ __human_name__ = "superpy"
 
 # Superpy class
 
+""" 
+Commands:
+    - Buy
+    - Sell
+    - Delete
+    - Inventory
+    - Sold
+    - Revenue
+    - Profit
+    - Advance
+"""
 
 class Superpy (object):
 
@@ -78,11 +89,11 @@ class Superpy (object):
 
     def inventory(self):
         parser = argparse.ArgumentParser(
-            usage='\n\nUse this command to view the inventory.\nCan be filtered by product or date.\nTo filter use the argument followed by the product/date or both.\n')
-        parser.add_argument('--product', help='Add a product to filter')
-        parser.add_argument('--date', help='Add a date to filter the buy date')
+            usage='\n\nUse this command to view the inventory.\nCan be filtered by id or date.\nTo filter use the argument followed by the id/date.\n')
+        parser.add_argument('--id', help='Add an ID to filter')
+        parser.add_argument('--date', help='Add a date to filter')
         args = parser.parse_args(sys.argv[2:])
-        print(display_stock(args.product, args.date))
+        print(display_stock(args.id, args.date))
 
 # The sold command. Used for displaying sold stock.
 

@@ -16,6 +16,7 @@ Functions:
     - add_bought_product
     - add_sold_product
     - sold_stock
+    - profit
     - revenue
     - get_price
     - get_amount
@@ -40,11 +41,11 @@ def advance_time(number):
 
 # Display Inventory | Returns dataframe of bought.csv
 
-def display_stock(product_name, date):
+def display_stock(id, date):
     pd.set_option('display.max_rows', None)
     df = pd.read_csv('bought.csv', sep='\t')
-    if product_name != None:
-        df = df[df.product_name.eq(product_name)]
+    if id != None:
+        df = df[df.id.eq(id)]
     if date != None:
         df = df[df.buy_date.eq(date)]
     return df
@@ -191,7 +192,7 @@ def is_id_true(id):
 # Get Sell Price | Gets sell_price from sold.csv
 
 def main():
-    print(add_bought_product(1000, "Apples - Jonagold", 0.3, "2022-12-31", 94))
+    print(display_stock(1000.0, None))
 
 if __name__ == "__main__":
     main()
