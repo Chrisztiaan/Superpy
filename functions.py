@@ -2,6 +2,7 @@
 from csv import writer
 import datetime as dt
 import pandas as pd
+from tabulate import tabulate
 
 
 # Time: Gets the current date from time.txt
@@ -48,7 +49,7 @@ def display_stock(id, date):
         df = df[df.id.eq(id)]
     if date != None:
         df = df[df.buy_date.eq(date)]
-    return df
+    return tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid")
 
 # Deleting A Product
 
@@ -118,10 +119,10 @@ def sold_stock(sell_date):
     # Potential filter on product
     if sell_date != None:
         df = df[df.sell_date.eq(sell_date)]
-        return df
+        return tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid")
     else:
         df = df[df.sell_date.eq(global_date)]
-        return df
+        return tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid")
 
 # Profit | Returns the profit for a certain date
 

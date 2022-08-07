@@ -6,6 +6,7 @@ import datetime as dt
 import sys
 import pandas as pd
 from functions import *
+from tabulate import tabulate
 
 
 # Do not change these lines.

@@ -1,8 +1,12 @@
 
 Todo:
-    - Grafieken toevoegen
-    - Flowchart maken
     - Expired products delete en overview
+    - Profit en Revenue periode aangeven
+    - date without time when writing to csv
+    - Matplotlib implement
+    - markdown bestand (README) maken over werking met voorbeelden
+    - report md maken over 3 technische elementen en wat ze oplossen
+    - Empty DF Issue
 
 
 Test:
@@ -15,7 +19,15 @@ Test:
     Profit - OK
     Advance - OK
 
-    
+
+Vereisten:
+
+- Welke producten zijn er nu - OK
+- Hoeveel van elk product - OK
+- Hoeveel kostte het product en wat is de expiration - OK
+- Hoeveel verkocht - OK
+- expiration overview
+
 
 Proberen een product te verwijderen. print(df) product weg, maar niet in file.
 Uiteindelijk .to_csv gebruikt met index False
