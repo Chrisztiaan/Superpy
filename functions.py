@@ -2,8 +2,6 @@
 from csv import writer
 import datetime as dt
 import pandas as pd
-from tabulate import tabulate
-
 
 # Time: Gets the current date from time.txt
 with open('time.txt') as f:
@@ -42,14 +40,18 @@ def advance_time(number):
 
 # Display Inventory | Returns dataframe of bought.csv
 
-def display_stock(id, date):
+def display_stock(id, date, date2):
     pd.set_option('display.max_rows', None)
     df = pd.read_csv('bought.csv', sep='\t')
-    if id != None:
-        df = df[df.id.eq(id)]
-    if date != None:
+    if date != None and date2 != None:
+        df = df[(df['buy_date'] >= date) & (df['buy_date'] <= date2)]
+    elif date != None:
         df = df[df.buy_date.eq(date)]
-    return tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid")
+    if id != None:
+        # Change id to int, does not string with eq
+        id = int(id)
+        df = df[df.id.eq(id)]
+    return df
 
 # Deleting A Product
 
@@ -113,32 +115,53 @@ def add_sold_product(id, price, amount):
 
 # Sold Stock | Returns dataframe of sold.csv
 
-def sold_stock(sell_date):
+def sold_stock(sell_date, sell_date_2):
     pd.set_option('display.max_rows', None)
     df = pd.read_csv('sold.csv', sep='\t')
     # Potential filter on product
-    if sell_date != None:
+    if sell_date != None and sell_date_2 != None:
+        df = df[(df['sell_date'] >= sell_date) & (df['sell_date'] <= sell_date_2)]
+        return df
+    elif sell_date != None:
         df = df[df.sell_date.eq(sell_date)]
-        return tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid")
+        return df
     else:
         df = df[df.sell_date.eq(global_date)]
-        return tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid")
+        return df
 
 # Profit | Returns the profit for a certain date
 
-def profit(date):
-    df = sold_stock(date)
+def profit(date, date2):
+    df = sold_stock(date, date2)
+    print(df)
     column = 'profit'
     profit = df[column].sum()
     return(profit)
 
 # Revenue | Returns the revenue for a certain date
 
-def revenue(date):
-    df = sold_stock(date)
+def revenue(date, date2):
+    df = sold_stock(date, date2)
     column = 'revenue'
     revenue = df[column].sum()
     return(revenue)
+
+# Expired | Returns dataframe with expired products
+
+def expired(delete):
+    pd.set_option('display.max_rows', None)
+    df = pd.read_csv('bought.csv', sep='\t')
+    delete == None
+    df = df[(df['expiration_date'] < global_date)]
+    return df
+
+
+
+
+
+
+
+
 
 # Get Price | Gets price from bought.csv
 
@@ -190,10 +213,9 @@ def is_id_true(id):
     else:
         return False
 
-# Get Sell Price | Gets sell_price from sold.csv
 
 def main():
-    print(display_stock(1000.0, None))
+    print(profit("2021-12-05", None))
 
 if __name__ == "__main__":
     main()

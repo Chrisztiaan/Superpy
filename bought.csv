@@ -1,6 +1,6 @@
 id	product_name	buy_date	price	expiration_date	amount
-1.0	Sauce - Rosee	2021-11-25	2.0	2022-07-17	50.0
-2.0	Mudslide	2022-05-02	37.0	2022-10-09	54.0
+1.0	Sauce - Rosee	2022-07-31	2.0	2022-07-17	50.0
+2.0	Mudslide	2022-07-31	37.0	2022-10-09	54.0
 3.0	Sausage - Chorizo	2022-06-11	65.0	2022-11-16	39.0
 4.0	Shrimp - Black Tiger 26/30	2021-07-22	94.0	2023-01-01	51.0
 5.0	Oil - Pumpkinseed	2022-01-28	37.0	2022-12-11	93.0
@@ -999,3 +999,4 @@ id	product_name	buy_date	price	expiration_date	amount
 998.0	Chicken - Whole	2022-01-18	27.0	2022-11-19	61.0
 999.0	Ecolab - Solid Fusion	2022-06-02	72.0	2023-05-30	90.0
 1000.0	Apples - Jonagold	2022-07-16	0.3	2022-12-31 00:00:00	40.0
+1001	Apples - New	2022-08-08	0.4	2022-12-31	50

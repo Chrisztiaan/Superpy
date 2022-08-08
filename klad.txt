@@ -1,19 +1,15 @@
 
 Todo:
-    - Expired products delete en overview
-    - Profit en Revenue periode aangeven
-    - date without time when writing to csv
     - Matplotlib implement
     - markdown bestand (README) maken over werking met voorbeelden
     - report md maken over 3 technische elementen en wat ze oplossen
-    - Empty DF Issue
 
 
 Test:
     Buy - OK
     Sell - OK
     Delete - OK
-    Inventory - Empty DF Issue
+    Inventory - OK
     Sold - OK
     Revenue - OK
     Profit - OK

@@ -27,6 +27,7 @@ Commands:
     - Revenue
     - Profit
     - Advance
+    - Expired
 """
 
 class Superpy (object):
@@ -35,9 +36,9 @@ class Superpy (object):
 
     def __init__(self):
         parser = argparse.ArgumentParser(
-            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command -h for help.\n\nUse the UP arrow to copy last command.\n\nCommands:\n\n- Buy\n- Sell\n- Delete\n- Inventory\n- Sold\n- Revenue\n- Profit\n- Advance\n')
+            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command -h for help.\n\nUse the UP arrow to copy last command.\n\nCommands:\n\n- Buy\n- Sell\n- Delete\n- Inventory\n- Sold\n- Revenue\n- Profit\n- Advance\n- Expired\n')
         parser.add_argument(
-            'command', help='Use: buy, sell, delete, inventory, revenue, advance after main.py')
+            'command', help='Use: buy, sell, delete, inventory, revenue, advance, expired after main.py')
         args = parser.parse_args(sys.argv[1:2])
         if not hasattr(self, args.command):
             print('Unrecognized command')
@@ -55,8 +56,7 @@ class Superpy (object):
         parser.add_argument('product_name', type=str,
                             help='Fill in product name, if name contains spaces please fill in between parentheses.')
         parser.add_argument('price', type=float, help='Fill in price')
-        parser.add_argument('expiration_date', type=lambda s: dt.datetime.strptime(
-            s, '%Y-%m-%d'), help='Fill in the expiration date as yyyy-mm-dd')
+        parser.add_argument('expiration_date', type=str, help='Fill in the expiration date as yyyy-mm-dd')
         parser.add_argument('amount', type=int,
                             help='Fill in the amount of the product')
         args = parser.parse_args(sys.argv[2:])
@@ -92,18 +92,22 @@ class Superpy (object):
         parser = argparse.ArgumentParser(
             usage='\n\nUse this command to view the inventory.\nCan be filtered by id or date.\nTo filter use the argument followed by the id/date.\n')
         parser.add_argument('--id', help='Add an ID to filter')
-        parser.add_argument('--date', help='Add a date to filter')
+        parser.add_argument('--date', help='Add a date to filter by date as yyyy-mm-dd')
+        parser.add_argument('--date2', help='Add a second date to show everything between the first and second date')
         args = parser.parse_args(sys.argv[2:])
-        print(display_stock(args.id, args.date))
+        df = display_stock(args.id, args.date, args.date2)
+        print(tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid"))
 
 # The sold command. Used for displaying sold stock.
 
     def sold(self):
         parser = argparse.ArgumentParser(
             usage='\n\nUse this command to view the sold stock.\nWill display today by default but can be filtered by date.\nTo filter use the argument followed by the date.\n')
-        parser.add_argument('--date', help='Add a date to filter')
+        parser.add_argument('--date', help='Add a date to filter by date as yyyy-mm-dd.')
+        parser.add_argument('--date2', help='Add a second date to show everything between the first and second date')
         args = parser.parse_args(sys.argv[2:])
-        print(sold_stock(args.date))
+        df = sold_stock(args.date, args.date2)
+        print(tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid"))
 
 # The revenue command. Used to calculate the revenue of a certain day.
 
@@ -111,8 +115,9 @@ class Superpy (object):
         parser = argparse.ArgumentParser(
             usage='\n\nCalculate revenue, today is standard but you can filter by date.\n')
         parser.add_argument('--date', help='Add a date to filter by date as yyyy-mm-dd.')
+        parser.add_argument('--date2', help='Add a second date to show everything between the first and second date')
         args = parser.parse_args(sys.argv[2:])
-        string = f'Revenue is: {revenue(args.date)}'
+        string = f'Revenue is: {revenue(args.date, args.date2)}'
         print(string)
 
 
@@ -122,8 +127,9 @@ class Superpy (object):
         parser = argparse.ArgumentParser(
             usage='\n\nCalculate profit, today is standard but you can filter by date.\n')
         parser.add_argument('--date', help='Add a date to filter by date as yyyy-mm-dd.')
+        parser.add_argument('--date2', help='Add a second date to show everything between the first and second date')
         args = parser.parse_args(sys.argv[2:])
-        string = f'Profit is: {profit(args.date)}'
+        string = f'Profit is: {profit(args.date, args.date2)}'
         print(string)
 
 # The advance command. Used to advance time by a number of days.
@@ -135,6 +141,14 @@ class Superpy (object):
             'days', help='Fill in number of days you want to advance time')
         args = parser.parse_args(sys.argv[2:])
         print(advance_time(int(args.days)))
+
+# The advance command. Used to advance time by a number of days.
+
+    def expired(self):
+        parser = argparse.ArgumentParser(
+            usage='\n\nUse this command to view all expired products.\n')
+        df = expired()
+        print(tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid"))
 
 
 def main():
