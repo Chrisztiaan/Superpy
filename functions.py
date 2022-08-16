@@ -3,13 +3,14 @@ from csv import writer
 import datetime as dt
 import pandas as pd
 
-# Time: Gets the current date from time.txt
+# Time | Gets the current date from time.txt
 with open('time.txt') as f:
     global_date = f.readline()
 
 """ 
 Functions:
     - advance_time
+    - set_date
     - display_stock
     - delete_stock
     - add_bought_product
@@ -23,7 +24,7 @@ Functions:
     - is_product_name_true
     - is_id_true
 """
-# Advance Time
+# Advance Time | Advances time an amount of days
 
 def advance_time(number):
     if number > 0:
@@ -37,6 +38,13 @@ def advance_time(number):
         return(f'Travelled through time!!\nDate: {new_date}')
     else:
         return(f'Travelled through ti... wait nothing happened.\nDate is still: {global_date}')
+
+# Set Date | Sets the date to a specific date
+
+def set_date(date):
+        with open('time.txt', 'w') as f:
+            f.write(str(date))
+        return(f'Travelled through time!!\nDate: {date}')
 
 # Display Inventory | Returns dataframe of bought.csv
 
@@ -53,7 +61,7 @@ def display_stock(id, date, date2):
         df = df[df.id.eq(id)]
     return df
 
-# Deleting A Product
+# Deleting A Product | Deletes a product from bought.csv or changes the amount
 
 def delete_stock(id, amount):
     df = pd.read_csv('bought.csv', sep='\t')
@@ -97,7 +105,7 @@ def add_bought_product(id, product_name, price, expiration_date, amount):
             return(f'{product_name} Bought')
 
 
-# Selling A Product | 
+# Selling A Product | Adds a product to sold.csv 
 
 def add_sold_product(id, price, amount):
     profit = (price - get_price(id)) * amount
@@ -148,20 +156,11 @@ def revenue(date, date2):
 
 # Expired | Returns dataframe with expired products
 
-def expired(delete):
+def expired():
     pd.set_option('display.max_rows', None)
     df = pd.read_csv('bought.csv', sep='\t')
-    delete == None
     df = df[(df['expiration_date'] < global_date)]
     return df
-
-
-
-
-
-
-
-
 
 # Get Price | Gets price from bought.csv
 

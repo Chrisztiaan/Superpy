@@ -1,21 +1,16 @@
 
 # Imports
 import argparse
-import csv
-import datetime as dt
 import sys
-import pandas as pd
 from functions import *
+from report import *
 from tabulate import tabulate
-
 
 # Do not change these lines.
 __winc_id__ = "a2bc36ea784242e4989deb157d527ba0"
 __human_name__ = "superpy"
 
 # Your code below this line
-
-# Superpy class
 
 """ 
 Commands:
@@ -26,9 +21,13 @@ Commands:
     - Sold
     - Revenue
     - Profit
+    - Report
     - Advance
+    - Set Date
     - Expired
 """
+
+# Superpy class
 
 class Superpy (object):
 
@@ -36,7 +35,7 @@ class Superpy (object):
 
     def __init__(self):
         parser = argparse.ArgumentParser(
-            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command -h for help.\n\nUse the UP arrow to copy last command.\n\nCommands:\n\n- Buy\n- Sell\n- Delete\n- Inventory\n- Sold\n- Revenue\n- Profit\n- Advance\n- Expired\n')
+            prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command followed by -h for help.\n\nUse the UP arrow to copy last command.\n\nCommands:\n\n- Buy\n- Sell\n- Delete\n- Inventory\n- Sold\n- Revenue\n- Profit\n- Report\n- Advance\n- Set Date\n- Expired\n')
         parser.add_argument(
             'command', help='Use: buy, sell, delete, inventory, revenue, advance, expired after main.py')
         args = parser.parse_args(sys.argv[1:2])
@@ -74,7 +73,6 @@ class Superpy (object):
         args = parser.parse_args(sys.argv[2:])
         print(add_sold_product(args.id, args.price, args.amount))
 
-
 # The delete command. Used for deleting products.
 
     def delete(self):
@@ -109,7 +107,7 @@ class Superpy (object):
         df = sold_stock(args.date, args.date2)
         print(tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid"))
 
-# The revenue command. Used to calculate the revenue of a certain day.
+# The revenue command. Used to calculate the revenue of a certain day or period.
 
     def revenue(self):
         parser = argparse.ArgumentParser(
@@ -120,8 +118,7 @@ class Superpy (object):
         string = f'Revenue is: {revenue(args.date, args.date2)}'
         print(string)
 
-
-# The profit command. Used to calculate the profit of a certain day.
+# The profit command. Used to calculate the profit of a certain day or period.
 
     def profit(self):
         parser = argparse.ArgumentParser(
@@ -132,15 +129,35 @@ class Superpy (object):
         string = f'Profit is: {profit(args.date, args.date2)}'
         print(string)
 
+# The report command. Used to view a graph of profit or revenue based on a timeframe.
+    def report(self):
+        parser = argparse.ArgumentParser(
+            usage='\n\nUse this command to view a graph of profit or revenue.\nFirst define wich one you want to see a graph from with "type" (Profit or Revenue).\nSecond fill in the start and end date for the period with --date and --date2.\nNot filling this will show a graph for all sales ever made.\n')
+        parser.add_argument('type', help='Fill in profit or revenue')
+        parser.add_argument('--date', help='Fill in a date as yyyy-mm-dd')
+        parser.add_argument('--date2', help='Fill in a date as yyyy-mm-dd')
+        args = parser.parse_args(sys.argv[2:])
+        df = report(args.type, args.date, args.date2)
+        print(tabulate(df, headers="keys", showindex=False, tablefmt="fancy_grid"))
+
 # The advance command. Used to advance time by a number of days.
 
     def advance(self):
         parser = argparse.ArgumentParser(
             usage='\n\nUse this command to travel through time by a number of days.\n')
-        parser.add_argument(
-            'days', help='Fill in number of days you want to advance time')
+        parser.add_argument('days', help='Fill in number of days you want to advance time')
         args = parser.parse_args(sys.argv[2:])
         print(advance_time(int(args.days)))
+
+    # The advance command. Used to advance time by a number of days.
+
+    def set_date(self):
+        parser = argparse.ArgumentParser(
+            usage='\n\nUse this command to travel through time to a certain date\n')
+        parser.add_argument(
+            'date', help='Fill in a date as yyyy-mm-dd')
+        args = parser.parse_args(sys.argv[2:])
+        print(set_date(args.date))
 
 # The advance command. Used to advance time by a number of days.
 
