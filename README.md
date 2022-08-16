@@ -149,6 +149,35 @@ Let's dive in and have a closer look 1 by 1 :swimmer:
 
 #### Buy
 
+Use this command  to buy products for your supermarket.
+Fill in the id, product name, price, expiration date and the amount of the product.
+
+Example:
+  ```sh
+  py superpy.py buy 1002 "Bananas - Chiquita" 0.10 2022-09-01 60
+  ```
+
+#### Sell
+
+Use this command to sell a product and remove it from the inventory.
+Fill in the id, price and the amount your selling.
+Example:
+  ```sh
+  py superpy.py sell 1002 0.20 30
+  ```
+
+#### Delete
+
+
+#### Inventory
+#### Sold
+#### Revenue
+#### Profit
+#### Report
+#### Advance
+#### Set Date
+#### Expired
+
 
 
     
