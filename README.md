@@ -67,37 +67,43 @@ This way you have full control of your stock without having to rely on pen and p
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Python and Pip
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+To use Superpy you need to have Python and Pip installed. Usually Pip is installed with python.
+Here's how to check if you have python and pip installed:
+
+Type in your terminal:
+
+* Python
   ```sh
-  npm install npm@latest -g
+  python --version
   ```
 
-### Installation
+  * Pip
+  ```sh
+  pip --version
+  ```
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+  If you get a version back for both, you are good to go! :smile:
+  If not see below for help:
+    [https://www.python.org/downloads/](https://www.python.org/downloads)
+    [https://pypi.org/project/pip/](https://pypi.org/project/pip/)
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### Requirements
+
+When you have python and pip installed there are some more requirements you need to use Superpy.
+You can easily install these requirements with the [https://github.com/Chrisztiaan/Superpy/blob/main/requirements.txt](requirements.txt) file
+
+Just use the below command in your terminal:
+  ```sh
+  pip install -r requirements.txt
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
