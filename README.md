@@ -132,22 +132,22 @@ Use this if you feel lost or need a reminder.
 
 ### Commands
 
-Below is a list of all the commands :point_down:
-    * Buy
-    * Sell
-    * Delete
-    * Inventory
-    * Sold
-    * Revenue
-    * Profit
-    * Report
-    * Advance
-    * Set Date
-    * Expired
+Below is a list of all the commands :point_down::
+* Buy
+* Sell
+* Delete
+* Inventory
+* Sold
+* Revenue
+* Profit
+* Report
+* Advance
+* Set Date
+* Expired
 
 Let's dive in and have a closer look 1 by 1 :swimmer:
 
-<span style="color:red; font-size:6em;">Buy</span>
+#### Buy
 
 
 
