@@ -13,7 +13,7 @@
   <p align="center">
     A CLI Application for Supermarkets!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Chrisztiaan/Superpy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Chrisztiaan/Superpy/issues">Report Bug</a>
@@ -75,11 +75,13 @@ Here's how to check if you have python and pip installed:
 Type in your terminal:
 
 * Python
+
   ```sh
   python --version
   ```
 
-  * Pip
+* Pip
+
   ```sh
   pip --version
   ```
