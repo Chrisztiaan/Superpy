@@ -33,12 +33,18 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#Python and Pip">Python and Pip</a></li>
-        <li><a href="#Requirements">Requirements</a></li>
-      </ul>
+        <ul>
+            <li><a href="#Python and Pip">Python and Pip</a></li>
+            <li><a href="#Requirements">Requirements</a></li>
+        </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#usage">Usage</a></li>
+        <ul>
+            <li><a href="#Intro">Intro</a></li>
+            <li><a href="#Commands">Commands</a></li>
+        </ul>
+    </li>
     <li><a href="#report">Report</a></li>
   </ol>
 </details>
@@ -120,13 +126,32 @@ Followed by the command.
 
 Every command has a help function. For example:
   ```sh
-  py superpy.py -h
+  py superpy.py inventory -h
   ```
-Use this in combination with a command if you feel lost or need a reminder.
+Use this if you feel lost or need a reminder.
 
 ### Commands
 
+Below is a list of all the commands :point_down:
+    * Buy
+    * Sell
+    * Delete
+    * Inventory
+    * Sold
+    * Revenue
+    * Profit
+    * Report
+    * Advance
+    * Set Date
+    * Expired
 
+Let's dive in and have a closer look 1 by 1 :swimmer:
+
+<span style="color:red; font-size:6em;">Buy</span>
+
+
+
+    
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
