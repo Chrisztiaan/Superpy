@@ -1,9 +1,8 @@
 
 Todo:
-    - Matplotlib implement
     - markdown bestand (README) maken over werking met voorbeelden
     - report md maken over 3 technische elementen en wat ze oplossen
-
+    - Exception Handling
 
 Test:
     Buy - OK
