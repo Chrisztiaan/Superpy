@@ -211,9 +211,9 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: www.linkedin.com/in/christiaan-verlaan-86541610b/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Chrisztiaan/Superpy.svg?style=for-the-badge
 [stars-url]: https://github.com/Chrisztiaan/Superpy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Chrisztiaan/Superpy.svg?style=for-the-badge
 [issues-url]: https://github.com/Chrisztiaan/Superpy/issues
 
 
