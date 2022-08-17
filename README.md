@@ -39,7 +39,7 @@
         </ul>
     </li>
     <li>
-      <a href="#usage">Usage</a></li>
+      <a href="#Usage">Usage</a></li>
         <ul>
           <li><a href="#Intro">Intro</a></li>
           <li><a href="#Commands">Commands</a></li>
@@ -59,7 +59,7 @@
         </ul>
     </li>
     <li>
-      <a href="#Report.md">Report.md</a>
+      <a href="#Winc-Report">Winc Report</a>
     </li>
   </ol>
 </details>
@@ -346,9 +346,9 @@ Output Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Report.md
+## Winc Report
 
-Included in the documents is a 300-word report that highlights three notable technical elements of the implementation.
+Included in the documents is a report that highlights three notable technical elements of the implementation.
 
 Click to go there now :point_down:
 
