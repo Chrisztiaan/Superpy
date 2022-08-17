@@ -34,7 +34,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
         <ul>
-            <li><a href="#Python and Pip">Python and Pip</a></li>
+            <li><a href="#Python-and-Pip">Python and Pip</a></li>
             <li><a href="#Requirements">Requirements</a></li>
         </ul>
     </li>
@@ -43,6 +43,18 @@
         <ul>
             <li><a href="#Intro">Intro</a></li>
             <li><a href="#Commands">Commands</a></li>
+              <ul>
+                <li><a href="#Buy">Buy</a></li>
+                <li><a href="#Sell">Sell</a></li>
+                <li><a href="#Delete">Delete</a></li>
+                <li><a href="#Inventory">Inventory</a></li>
+                <li><a href="#Sold">Sold</a></li>
+                <li><a href="#Revenue">Revenue</a></li>
+                <li><a href="#Profit">Profit</a></li>
+                <li><a href="#Report">Report</a></li>
+                <li><a href="#Advance">Advance</a></li>
+                <li><a href="#Set-Date">Set Date</a></li>
+                <li><a href="#Expired">Expired</a></li>
         </ul>
     </li>
     <li><a href="#report">Report</a></li>
@@ -204,7 +216,7 @@ Output:
 │ 1000 │ Apples - Jonagold │ 2022-07-16 │     0.3 │ 2022-12-31 00:00:00 │       40 │
 ╘══════╧═══════════════════╧════════════╧═════════╧═════════════════════╧══════════╛
   ```
-  
+
 #### Sold
 #### Revenue
 #### Profit
