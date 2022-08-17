@@ -293,7 +293,8 @@ Example:
   ```
 
 Output Example:
-<img src="images/Plot_example.png" alt='Example' width="120" height="120">
+
+<img src="images/Plot_example.png" alt='Example' width="220" height="220">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
