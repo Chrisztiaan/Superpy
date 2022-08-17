@@ -78,7 +78,7 @@ With Superpy you can do the following:
 * Calculate profit and revenue
 * Show profit and revenue in a graph
 
-This way you have full control of your stock without having to rely on pen and paper.
+This way you have full control of your stock without having to rely on pen and paper :pencil2:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +86,7 @@ This way you have full control of your stock without having to rely on pen and p
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Python and Pip
 
@@ -95,7 +95,7 @@ Here's how to check if you have python and pip installed:
 
 Type in your terminal:
 
-* Python
+* Python :snake:
 
   ```sh
   python --version
@@ -293,13 +293,13 @@ Example:
   ```
 
 Output Example:
-<img src="images/Plot_example.png" alt='Example' width="80" height="80">
+<img src="images/Plot_example.png" alt='Example' width="120" height="120">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Advance
 
-Use this command to travel through time by a number of days.
+Use this command to travel through time by a number of days :watch:
 
 Example:
   ```sh
@@ -308,7 +308,7 @@ Example:
 
 #### Set Date
 
-Use this command to travel through time to a certain date
+Use this command to travel through time to a certain date :watch:
 
 Example:
   ```sh
