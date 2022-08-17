@@ -94,8 +94,8 @@ Type in your terminal:
 
   If you get a version back for both, you are good to go! :smile:
   If not see below for help:
-    [https://www.python.org/downloads/](https://www.python.org/downloads)
-    [https://pypi.org/project/pip/](https://pypi.org/project/pip/)
+    * [https://www.python.org/downloads/](https://www.python.org/downloads)
+    * [https://pypi.org/project/pip/](https://pypi.org/project/pip/)
 
 ### Requirements
 
@@ -161,6 +161,7 @@ Example:
 
 Use this command to sell a product and remove it from the inventory.
 Fill in the id, price and the amount your selling.
+
 Example:
   ```sh
   py superpy.py sell 1002 0.20 30
@@ -168,8 +169,42 @@ Example:
 
 #### Delete
 
+Use this command to delete a product.
+The amount you fill in will be removed from the inventory.
+Use this for damaged goods or other exceptions.
+
+Example:
+  ```sh
+  py superpy.py delete 1002 10
+  ```
 
 #### Inventory
+
+Use this command to view the inventory.
+Can be filtered by id or date.
+To filter use the argument followed by the id/date.
+In the example below we filter with two dates to filter all products that have been bought between these dates.
+
+Example:
+  ```sh
+  py superpy.py inventory --date 2022-07-01 --date2 2022-08-01
+  ```
+
+Output:
+  ```sh
+╒══════╤═══════════════════╤════════════╤═════════╤═════════════════════╤══════════╕
+│   id │ product_name      │ buy_date   │   price │ expiration_date     │   amount │
+╞══════╪═══════════════════╪════════════╪═════════╪═════════════════════╪══════════╡
+│    1 │ Sauce - Rosee     │ 2022-07-31 │     2   │ 2023-07-17          │       50 │
+├──────┼───────────────────┼────────────┼─────────┼─────────────────────┼──────────┤
+│    2 │ Mudslide          │ 2022-07-31 │    37   │ 2022-10-09          │       54 │
+├──────┼───────────────────┼────────────┼─────────┼─────────────────────┼──────────┤
+│   41 │ Basil - Fresh     │ 2022-07-16 │    36   │ 2023-04-08          │        3 │
+├──────┼───────────────────┼────────────┼─────────┼─────────────────────┼──────────┤
+│ 1000 │ Apples - Jonagold │ 2022-07-16 │     0.3 │ 2022-12-31 00:00:00 │       40 │
+╘══════╧═══════════════════╧════════════╧═════════╧═════════════════════╧══════════╛
+  ```
+  
 #### Sold
 #### Revenue
 #### Profit
