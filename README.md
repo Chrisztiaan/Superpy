@@ -41,22 +41,23 @@
     <li>
       <a href="#usage">Usage</a></li>
         <ul>
-            <li><a href="#Intro">Intro</a></li>
-            <li><a href="#Commands">Commands</a></li>
-              <ul>
-                <li><a href="#Buy">Buy</a></li>
-                <li><a href="#Sell">Sell</a></li>
-                <li><a href="#Delete">Delete</a></li>
-                <li><a href="#Inventory">Inventory</a></li>
-                <li><a href="#Sold">Sold</a></li>
-                <li><a href="#Revenue">Revenue</a></li>
-                <li><a href="#Profit">Profit</a></li>
-                <li><a href="#Report">Report</a></li>
-                <li><a href="#Advance">Advance</a></li>
-                <li><a href="#Set-Date">Set Date</a></li>
-                <li><a href="#Expired">Expired</a></li>
-              </ul>
-             </li>
+          <li><a href="#Intro">Intro</a></li>
+          <li><a href="#Commands">Commands</a></li>
+            <ul>
+              <li><a href="#Buy">Buy</a></li>
+              <li><a href="#Sell">Sell</a></li>
+              <li><a href="#Delete">Delete</a></li>
+              <li><a href="#Inventory">Inventory</a></li>
+              <li><a href="#Sold">Sold</a></li>
+              <li><a href="#Revenue">Revenue</a></li>
+              <li><a href="#Profit">Profit</a></li>
+              <li><a href="#Report">Report</a></li>
+              <li><a href="#Advance">Advance</a></li>
+              <li><a href="#Set-Date">Set Date</a></li>
+              <li><a href="#Expired">Expired</a></li>
+            </ul>
+        </ul>
+    </li>
     <li>
       <a href="#report.md">Report.md</a>
     </li>
