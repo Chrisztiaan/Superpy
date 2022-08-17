@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Chrisztiaan/Superpy">
     <img src="images/winclogo.png" alt="Logo" width="100" height="100">
   </a>
 
