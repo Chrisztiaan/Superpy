@@ -112,7 +112,7 @@ Type in your terminal:
 ### Requirements
 
 When you have python and pip installed there are some more requirements you need to use Superpy.
-You can easily install these requirements with the [https://github.com/Chrisztiaan/Superpy/blob/main/requirements.txt](requirements.txt) file
+You can easily install these requirements with the <a href=https://github.com/Chrisztiaan/Superpy/blob/main/requirements.txt>requirements.txt</a> file
 
 Just use the below command in your terminal:
   ```sh
@@ -141,6 +141,8 @@ Every command has a help function. For example:
   py superpy.py inventory -h
   ```
 Use this if you feel lost or need a reminder.
+
+For faster use you can copy your last command by using the :arrow_up: key.
 
 ### Commands
 
@@ -178,6 +180,8 @@ Example:
   ```sh
   py superpy.py sell 1002 0.20 30
   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Delete
 
@@ -217,20 +221,138 @@ Output:
 ╘══════╧═══════════════════╧════════════╧═════════╧═════════════════════╧══════════╛
   ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Sold
+
+Use this command to view the sold stock.
+Will display today by default but can be filtered by date.
+To filter use the argument followed by the date.
+
+Example:
+  ```sh
+  py superpy.py sold --date 2022-08-15 --date2 2022-08-16
+  ```
+
+Output:
+  ```sh
+  ╒══════╤═════════════╤══════════╤══════════════╤═══════════╤══════════╕
+│   id │ sell_date   │   amount │   sell_price │   revenue │   profit │
+╞══════╪═════════════╪══════════╪══════════════╪═══════════╪══════════╡
+│ 1001 │ 2022-08-15  │       50 │          2   │       100 │       50 │
+├──────┼─────────────┼──────────┼──────────────┼───────────┼──────────┤
+│ 1000 │ 2022-08-15  │       80 │          1.3 │       104 │       80 │
+├──────┼─────────────┼──────────┼──────────────┼───────────┼──────────┤
+│ 1000 │ 2022-08-15  │       20 │          1.3 │        26 │       20 │
+├──────┼─────────────┼──────────┼──────────────┼───────────┼──────────┤
+│ 1001 │ 2022-08-16  │       40 │          1   │        40 │       20 │
+├──────┼─────────────┼──────────┼──────────────┼───────────┼──────────┤
+│ 1001 │ 2022-08-16  │       40 │          1   │        40 │       20 │
+├──────┼─────────────┼──────────┼──────────────┼───────────┼──────────┤
+│ 1000 │ 2022-08-16  │       40 │          1   │        40 │       28 │
+├──────┼─────────────┼──────────┼──────────────┼───────────┼──────────┤
+│ 1001 │ 2022-08-16  │       40 │          0.5 │        20 │        4 │
+├──────┼─────────────┼──────────┼──────────────┼───────────┼──────────┤
+│ 1001 │ 2022-08-16  │       60 │          0.6 │        36 │       12 │
+╘══════╧═════════════╧══════════╧══════════════╧═══════════╧══════════╛
+  ```
+
 #### Revenue
-#### Profit
-#### Report
-#### Advance
-#### Set Date
-#### Expired
 
+Use this command to calculate the revenue, today is standard but you can filter by date.
 
-
-    
+Example:
+  ```sh
+  py superpy.py revenue --date 2022-08-15 --date2 2022-08-16
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Profit
+
+Use this command to calculate the profit, today is standard but you can filter by date.
+
+Example:
+  ```sh
+  py superpy.py profit --date 2022-08-15 --date2 2022-08-16
+  ```
+
+#### Report
+
+Use this command to view a graph of profit or revenue.
+First define wich one you want to see a graph from with "type" (Profit or Revenue).
+Second fill in the start and end date for the period with --date and --date2.
+Not filling this will show a graph for all sales ever made.
+
+Example:
+  ```sh
+  py superpy.py report revenue --date 2022-08-15 --date2 2022-08-16
+  ```
+
+Output Example:
+<img src="images/Plot_example.png" alt='Example' width="80" height="80">
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Advance
+
+Use this command to travel through time by a number of days.
+
+Example:
+  ```sh
+  py superpy.py advance 1
+  ```
+
+#### Set Date
+
+Use this command to travel through time to a certain date
+
+Example:
+  ```sh
+  py superpy.py set_date 2022-08-17
+  ```
+
+#### Expired
+
+Use this command to view all expired products.
+
+Example:
+  ```sh
+  py superpy.py expired
+  ```
+Output Example:
+  ```sh
+╒══════╤══════════════════════════════════╤════════════╤═════════╤═══════════════════╤══════════╕
+│   id │ product_name                     │ buy_date   │   price │ expiration_date   │   amount │
+╞══════╪══════════════════════════════════╪════════════╪═════════╪═══════════════════╪══════════╡
+│   11 │ Spice - Greek 1 Step             │ 2021-11-11 │      33 │ 2022-07-13        │        6 │
+├──────┼──────────────────────────────────┼────────────┼─────────┼───────────────────┼──────────┤
+│   57 │ Beef - Short Ribs                │ 2022-01-06 │      86 │ 2022-08-14        │       21 │
+├──────┼──────────────────────────────────┼────────────┼─────────┼───────────────────┼──────────┤
+│   80 │ Island Oasis - Peach Daiquiri    │ 2021-12-06 │      95 │ 2022-07-21        │       82 │
+├──────┼──────────────────────────────────┼────────────┼─────────┼───────────────────┼──────────┤
+│  154 │ Wine - Cave Springs Dry Riesling │ 2021-07-12 │      32 │ 2022-08-06        │       45 │
+├──────┼──────────────────────────────────┼────────────┼─────────┼───────────────────┼──────────┤
+│  165 │ Water Chestnut - Canned          │ 2021-10-09 │      50 │ 2022-08-01        │       92 │
+├──────┼──────────────────────────────────┼────────────┼─────────┼───────────────────┼──────────┤
+│  205 │ Bread - Granary Small Pull       │ 2022-04-15 │      52 │ 2022-06-28        │       70 │
+├──────┼──────────────────────────────────┼────────────┼─────────┼───────────────────┼──────────┤
+│  248 │ Stock - Veal, Brown              │ 2022-04-09 │      68 │ 2022-07-08        │       53 │
+├──────┼──────────────────────────────────┼────────────┼─────────┼───────────────────┼──────────
+  ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Report
+
+Included in the documents is a 300-word report that highlights three notable technical elements of the implementation.
+
+Click to go there now :point_down:
+
+<a href=https://github.com/Chrisztiaan/Superpy/blob/main/report.md>Report :raised_hands:</a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-url]: www.linkedin.com/in/christiaan-verlaan-86541610b/
