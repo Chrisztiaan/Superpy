@@ -37,7 +37,7 @@ class Superpy (object):
         parser = argparse.ArgumentParser(
             prog="Superpy", epilog="Enjoy the program!\n", usage='\n\nWelcome to Superpy!!\n\nUse a command and required arguments (positional arguments). You can also use optional arguments in some cases.\nIf you do not know how to use a command type the command followed by -h for help.\n\nUse the UP arrow to copy last command.\n\nCommands:\n\n- Buy\n- Sell\n- Delete\n- Inventory\n- Sold\n- Revenue\n- Profit\n- Report\n- Advance\n- Set Date\n- Expired\n')
         parser.add_argument(
-            'command', help='Use: buy, sell, delete, inventory, revenue, advance, expired after main.py')
+            'command', help='Use: buy, sell, delete, inventory, sold, revenue, profit, revenue, advance, set_date, expired after main.py')
         args = parser.parse_args(sys.argv[1:2])
         if not hasattr(self, args.command):
             print('Unrecognized command')

@@ -25,7 +25,7 @@
       <a href="#Tabulate">Tabulate</a>
     </li>
     <li>
-      <a href="#"></a></li>
+      <a href="#Tab-Delimited"></a></li>
     </li>
   </ol>
 </details>
@@ -67,6 +67,7 @@ Below this I created a function for every argument, all using their own parser b
 
   Another benefit of the Superpy class is the absence of if/else statements, every argument has its own parser so there is no need for this.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Tabulate -->
 ## Tabulate
@@ -89,6 +90,19 @@ In Superpy I use Pandas to create my dataframes, Tabulate works very well with p
 
 Very easy! :smile:
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- Tab Delimited -->
+## Tab Delimited
+
+I coloured outside the lines on this one :see_no_evil:
+
+I have worked with .tsv files before, and after searching for the differences between tsv and csv I couldn't find a good reason to go for csv files.
+
+I made this choice for the following reasons:
+
+* Tsv files are easier to read by humans.
+* Python is good at processing tsv files.
+* I am familiar with  tsv files.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

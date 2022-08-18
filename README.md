@@ -125,7 +125,6 @@ Just use the below command in your terminal:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- USAGE -->
 ## Usage
 
