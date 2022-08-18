@@ -104,5 +104,6 @@ I made this choice for the following reasons:
 * Tsv files are easier to read by humans.
 * Python is good at processing tsv files.
 * I am familiar with  tsv files.
+* It looks better in Github :wink:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
