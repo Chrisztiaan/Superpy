@@ -43,7 +43,6 @@ class Superpy (object):
             print('Unrecognized command')
             parser.print_help()
             exit(1)
-
         getattr(self, args.command)()
 
 # The buy subcommand. Used for buying products..\.
