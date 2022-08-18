@@ -24,7 +24,7 @@ def revenue_plot(date, date2):
     # Defining columns to be used
     columns = ["sell_date", "revenue"]
     # Creating dataframe
-    df = pd.read_csv("sold.csv", sep='\t', usecols=columns, parse_dates=['sell_date'])
+    df = pd.read_csv("sold.tsv", sep='\t', usecols=columns, parse_dates=['sell_date'])
     if date != None and date2 != None:
         df = df[(df['sell_date'] >= date) & (df['sell_date'] <= date2)]
     # Dates to datetime | Used in locator
@@ -51,7 +51,7 @@ def profit_plot(date, date2):
     # Defining columns to be used
     columns = ["sell_date", "profit"]
     # Creating dataframe
-    df = pd.read_csv("sold.csv", sep='\t', usecols=columns, parse_dates=['sell_date'])
+    df = pd.read_csv("sold.tsv", sep='\t', usecols=columns, parse_dates=['sell_date'])
     if date != None and date2 != None:
         df = df[(df['sell_date'] >= date) & (df['sell_date'] <= date2)]
     # Dates to datetime | Used in locator

@@ -141,7 +141,6 @@ def sold_stock(sell_date, sell_date_2):
 
 def profit(date, date2):
     df = sold_stock(date, date2)
-    print(df)
     column = 'profit'
     profit = df[column].sum()
     return(profit)

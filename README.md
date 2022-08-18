@@ -358,5 +358,7 @@ Click to go there now :point_down:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[linkedin-url]: www.linkedin.com/in/christiaan-verlaan-86541610b/
+[linkedin-url]: https://linkedin.com/in/christiaan-verlaan-86541610b/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+
